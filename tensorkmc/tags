@@ -1,0 +1,1699 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABSOLUTE	image.cpp	/^enum{ABSOLUTE,FRACTIONAL};$/;"	e	enum:__anon25	file:
+ACOS	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+ADD	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+AM	random_park.cpp	22;"	d	file:
+APP_CLASS	input.cpp	659;"	d	file:
+APP_CLASS	input.cpp	663;"	d	file:
+APP_CLASS	spparks.cpp	345;"	d	file:
+APP_CLASS	spparks.cpp	348;"	d	file:
+APP_CLASSES	app.h	/^  enum APP_CLASSES{GENERAL,LATTICE,OFF_LATTICE};$/;"	g	class:SPPARKS_NS::App
+ARG	variable.cpp	/^enum{ARG,OP};$/;"	e	enum:__anon36	file:
+ARITHMETIC	pair.cpp	/^enum{GEOMETRIC,ARITHMETIC,SIXTHPOWER};$/;"	e	enum:__anon28	file:
+ASCEND	dump.cpp	/^enum{ASCEND,DESCEND};$/;"	e	enum:__anon11	file:
+ASIN	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+ATAN	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+ATOBIGINT	spktype.h	61;"	d
+ATOTAGINT	spktype.h	60;"	d
+App	app.cpp	/^App::App(SPPARKS *spk, int narg, char **arg) : Pointers(spk)$/;"	f	class:App
+App	app.h	/^class App : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+AppLattice	app_lattice.cpp	/^AppLattice::AppLattice(SPPARKS *spk, int narg, char **arg) : App(spk,narg,arg)$/;"	f	class:AppLattice
+AppLattice	app_lattice.h	/^class AppLattice : public App {$/;"	c	namespace:SPPARKS_NS
+AppStyle	input.cpp	660;"	d	file:
+AppStyle	spparks.cpp	346;"	d	file:
+AppVacancy	app_vacancy.cpp	/^AppVacancy::AppVacancy(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:AppVacancy
+BCC	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+BCC	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+BCC	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+BIG	dump.cpp	30;"	d	file:
+BIG	image.cpp	40;"	d	file:
+BIG	region_block.cpp	22;"	d	file:
+BIGINT	dump_image.cpp	/^enum{INT,DOUBLE,BIGINT};                              \/\/ in other dump files$/;"	e	enum:__anon18	file:
+BIGINT_FORMAT	spktype.h	58;"	d
+BMP	pair.cpp	/^enum{R,RSQ,BMP};$/;"	e	enum:__anon29	file:
+BOX	create_sites.cpp	/^enum{BOX,REGION};$/;"	e	enum:__anon7	file:
+CARAT	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+CEIL	variable.cpp	/^       CEIL,FLOOR,ROUND,VALUE};$/;"	e	enum:__anon37	file:
+CHUNK	read_sites.cpp	33;"	d	file:
+CM_EAM	app_vacancy.cpp	/^enum{ZERO,CM_EAM,CM_FS,CM_EAM3,CM_PPAIR2};$/;"	e	enum:__anon5	file:
+CM_EAM3	app_vacancy.cpp	/^enum{ZERO,CM_EAM,CM_FS,CM_EAM3,CM_PPAIR2};$/;"	e	enum:__anon5	file:
+CM_FS	app_vacancy.cpp	/^enum{ZERO,CM_EAM,CM_FS,CM_EAM3,CM_PPAIR2};$/;"	e	enum:__anon5	file:
+CM_PPAIR2	app_vacancy.cpp	/^enum{ZERO,CM_EAM,CM_FS,CM_EAM3,CM_PPAIR2};$/;"	e	enum:__anon5	file:
+COLOR	app_lattice.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};$/;"	e	enum:__anon1	file:
+COLOR	app_vacancy.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};  \/\/ from app_lattice.cpp$/;"	e	enum:__anon4	file:
+COLOR_STRICT	app_lattice.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};$/;"	e	enum:__anon1	file:
+COLOR_STRICT	app_vacancy.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};  \/\/ from app_lattice.cpp$/;"	e	enum:__anon4	file:
+COMMAND_CLASS	input.cpp	441;"	d	file:
+COMMAND_CLASS	input.cpp	449;"	d	file:
+COMMAND_CLASS	spparks.cpp	387;"	d	file:
+COMMAND_CLASS	spparks.cpp	390;"	d	file:
+CONTINUOUS	image.cpp	/^enum{CONTINUOUS,DISCRETE,SEQUENTIAL};$/;"	e	enum:__anon24	file:
+COS	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+CUBE	dump_image.cpp	/^enum{SPHERE,CUBE};$/;"	e	enum:__anon13	file:
+Cluster	cluster.cpp	/^Cluster::Cluster(int id, int iv, double dv, double vol,$/;"	f	class:Cluster
+Cluster	cluster.h	/^class Cluster {$/;"	c	namespace:SPPARKS_NS
+CommLattice	comm_lattice.cpp	/^CommLattice::CommLattice(SPPARKS *spk) : Pointers(spk)$/;"	f	class:CommLattice
+CommLattice	comm_lattice.h	/^class CommLattice : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+CommandStyle	input.cpp	442;"	d	file:
+CommandStyle	spparks.cpp	388;"	d	file:
+Condition	set.h	/^  struct Condition {                     \/\/ list of if-test conditions$/;"	s	class:SPPARKS_NS::Set
+CreateBox	create_box.cpp	/^CreateBox::CreateBox(SPPARKS *spk) : Pointers(spk) {}$/;"	f	class:CreateBox
+CreateBox	create_box.h	/^class CreateBox : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+CreateSites	create_sites.cpp	/^CreateSites::CreateSites(SPPARKS *spk) : Pointers(spk) {}$/;"	f	class:CreateSites
+CreateSites	create_sites.h	/^class CreateSites : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+Cu	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+DARRAY	create_sites.cpp	/^enum{DUMMY,IARRAY,DARRAY};$/;"	e	enum:__anon8	file:
+DARRAY	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+DARRAY	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+DARRAY	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+DARRAY	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+DATTRIBUTE	dump_image.cpp	/^enum{NUMERIC,IATTRIBUTE,DATTRIBUTE};$/;"	e	enum:__anon14	file:
+DELTA	app_lattice.cpp	36;"	d	file:
+DELTA	comm_lattice.cpp	34;"	d	file:
+DELTA	domain.cpp	25;"	d	file:
+DELTA	input.cpp	43;"	d	file:
+DELTA	read_sites.cpp	34;"	d	file:
+DELTABUF	create_sites.cpp	48;"	d	file:
+DELTAEVENT	app_vacancy.cpp	28;"	d	file:
+DELTALOCAL	create_sites.cpp	47;"	d	file:
+DEPOSITION	app_vacancy.cpp	/^enum{DEPOSITION,NNHOP,SCHWOEBEL};$/;"	e	enum:__anon3	file:
+DESCEND	dump.cpp	/^enum{ASCEND,DESCEND};$/;"	e	enum:__anon11	file:
+DIAG_CLASS	input.cpp	687;"	d	file:
+DIAG_CLASS	input.cpp	694;"	d	file:
+DIAG_CLASS	spparks.cpp	359;"	d	file:
+DIAG_CLASS	spparks.cpp	362;"	d	file:
+DIAMOND	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+DIAMOND	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+DIAMOND	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+DISCRETE	image.cpp	/^enum{CONTINUOUS,DISCRETE,SEQUENTIAL};$/;"	e	enum:__anon24	file:
+DISPLACE	set.cpp	/^enum{VALUE,RANGE,UNIQUE,DISPLACE};$/;"	e	enum:__anon31	file:
+DIVIDE	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+DONE	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+DOUBLE	dump_image.cpp	/^enum{INT,DOUBLE,BIGINT};                              \/\/ in other dump files$/;"	e	enum:__anon18	file:
+DOUBLE	dump_text.cpp	/^enum{INT,DOUBLE,TAGINT};           \/\/ in other dump files$/;"	e	enum:__anon22	file:
+DOUBLE	set.cpp	/^enum{INT,DOUBLE,TAGINT};$/;"	e	enum:__anon33	file:
+DUMMY	create_sites.cpp	/^enum{DUMMY,IARRAY,DARRAY};$/;"	e	enum:__anon8	file:
+DUMP_CLASS	output.cpp	249;"	d	file:
+DUMP_CLASS	output.cpp	253;"	d	file:
+DUMP_CLASS	spparks.cpp	366;"	d	file:
+DUMP_CLASS	spparks.cpp	369;"	d	file:
+DYNAMIC	dump_image.cpp	/^enum{STATIC,DYNAMIC};$/;"	e	enum:__anon15	file:
+Diag	diag.cpp	/^Diag::Diag(SPPARKS *spk, int narg, char **arg) : Pointers(spk)$/;"	f	class:Diag
+Diag	diag.h	/^class Diag : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+DiagArray	diag_array.cpp	/^DiagArray::DiagArray(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:DiagArray
+DiagArray	diag_array.h	/^class DiagArray : public Diag {$/;"	c	namespace:SPPARKS_NS
+DiagCluster	diag_cluster.cpp	/^DiagCluster::DiagCluster(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:DiagCluster
+DiagCluster	diag_cluster.h	/^class DiagCluster : public Diag {$/;"	c	namespace:SPPARKS_NS
+DiagEnergy	diag_energy.cpp	/^DiagEnergy::DiagEnergy(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:DiagEnergy
+DiagEnergy	diag_energy.h	/^class DiagEnergy : public Diag {$/;"	c	namespace:SPPARKS_NS
+DiagPropensity	diag_propensity.cpp	/^DiagPropensity::DiagPropensity(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:DiagPropensity
+DiagPropensity	diag_propensity.h	/^class DiagPropensity : public Diag {$/;"	c	namespace:SPPARKS_NS
+DiagStyle	input.cpp	688;"	d	file:
+DiagStyle	spparks.cpp	360;"	d	file:
+Domain	domain.cpp	/^Domain::Domain(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Domain
+Domain	domain.h	/^class Domain : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+Dump	dump.cpp	/^Dump::Dump(SPPARKS *spk, int narg, char **arg) : Pointers(spk)$/;"	f	class:Dump
+Dump	dump.h	/^class Dump : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+DumpImage	dump_image.cpp	/^DumpImage::DumpImage(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:DumpImage
+DumpImage	dump_image.h	/^class DumpImage : public DumpText {$/;"	c	namespace:SPPARKS_NS
+DumpSites	dump_sites.cpp	/^DumpSites::DumpSites(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:DumpSites
+DumpSites	dump_sites.h	/^class DumpSites : public DumpText {$/;"	c	namespace:SPPARKS_NS
+DumpStyle	output.cpp	250;"	d	file:
+DumpStyle	spparks.cpp	367;"	d	file:
+DumpStyles	diag_cluster.h	/^  enum DumpStyles {STANDARD,OPENDX};$/;"	g	class:SPPARKS_NS::DiagCluster
+DumpText	dump_text.cpp	/^DumpText::DumpText(SPPARKS *spk, int narg, char **arg) : Dump(spk, narg, arg)$/;"	f	class:DumpText
+DumpText	dump_text.h	/^class DumpText : public Dump {$/;"	c	namespace:SPPARKS_NS
+ENERGY	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+ENERGY	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+ENERGY	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+EPSILON	create_sites.cpp	49;"	d	file:
+EPSILON	dump.cpp	31;"	d	file:
+EPSILON	groups.cpp	23;"	d	file:
+EPSILON	image.cpp	41;"	d	file:
+EPSILON	read_sites.cpp	35;"	d	file:
+EQ	dump_text.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon21	file:
+EQ	set.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon32	file:
+EQUAL	variable.cpp	/^enum{INDEX,LOOP,EQUAL,WORLD,UNIVERSE,ULOOP};$/;"	e	enum:__anon35	file:
+EXE	Makefile	/^EXE =	$(ROOT)_$@$/;"	m
+EXP	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+Error	error.cpp	/^Error::Error(SPPARKS *spk) : Pointers(spk) {}$/;"	f	class:Error
+Error	error.h	/^class Error : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+FCC	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+FCC	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+FCC	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+FCC_OCTA_TETRA	create_sites.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon6	file:
+FCC_OCTA_TETRA	diag_cluster.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon10	file:
+FCC_OCTA_TETRA	lattice.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon27	file:
+FLERR	pointers.h	32;"	d
+FLOOR	variable.cpp	/^       CEIL,FLOOR,ROUND,VALUE};$/;"	e	enum:__anon37	file:
+FOV	image.h	/^  double FOV;$/;"	m	class:SPPARKS_NS::Image
+FRACTIONAL	image.cpp	/^enum{ABSOLUTE,FRACTIONAL};$/;"	e	enum:__anon25	file:
+Fe	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+FeCu	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+Finish	finish.cpp	/^Finish::Finish (SPPARKS *spk, int flag) : Pointers(spk)$/;"	f	class:Finish
+Finish	finish.h	/^class Finish : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+FnPtrData	dump_text.h	/^  typedef void (DumpText::*FnPtrData)(int, double *);$/;"	t	class:SPPARKS_NS::DumpText
+FnPtrHeader	dump_text.h	/^  typedef void (DumpText::*FnPtrHeader)(bigint, double);$/;"	t	class:SPPARKS_NS::DumpText
+FnPtrPack	dump_text.h	/^  typedef void (DumpText::*FnPtrPack)(int);$/;"	t	class:SPPARKS_NS::DumpText
+GE	dump_text.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon21	file:
+GE	set.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon32	file:
+GENERAL	app.h	/^  enum APP_CLASSES{GENERAL,LATTICE,OFF_LATTICE};$/;"	e	enum:SPPARKS_NS::App::APP_CLASSES
+GEOMETRIC	pair.cpp	/^enum{GEOMETRIC,ARITHMETIC,SIXTHPOWER};$/;"	e	enum:__anon28	file:
+GT	dump_text.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon21	file:
+GT	set.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon32	file:
+Groups	groups.cpp	/^Groups::Groups(SPPARKS *spk, double hi_in, double lo_in, int ng_in) : $/;"	f	class:Groups
+Groups	groups.h	/^class Groups : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+IA	random_park.cpp	20;"	d	file:
+IARRAY	create_sites.cpp	/^enum{DUMMY,IARRAY,DARRAY};$/;"	e	enum:__anon8	file:
+IARRAY	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+IARRAY	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+IARRAY	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+IARRAY	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+IATTRIBUTE	dump_image.cpp	/^enum{NUMERIC,IATTRIBUTE,DATTRIBUTE};$/;"	e	enum:__anon14	file:
+ID	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+ID	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+ID	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+ID	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+IM	random_park.cpp	21;"	d	file:
+INC	Makefile	/^INC =	$(wildcard *.h)$/;"	m
+INDEX	variable.cpp	/^enum{INDEX,LOOP,EQUAL,WORLD,UNIVERSE,ULOOP};$/;"	e	enum:__anon35	file:
+INT	dump_image.cpp	/^enum{INT,DOUBLE,BIGINT};                              \/\/ in other dump files$/;"	e	enum:__anon18	file:
+INT	dump_text.cpp	/^enum{INT,DOUBLE,TAGINT};           \/\/ in other dump files$/;"	e	enum:__anon22	file:
+INT	set.cpp	/^enum{INT,DOUBLE,TAGINT};$/;"	e	enum:__anon33	file:
+IQ	random_park.cpp	23;"	d	file:
+IR	random_park.cpp	24;"	d	file:
+Image	image.cpp	/^Image::Image(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Image
+Image	image.h	/^class Image : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+Input	input.cpp	/^Input::Input(SPPARKS *spk, int argc, char **argv) : Pointers(spk)$/;"	f	class:Input
+Input	input.h	/^class Input : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+JPG	dump_image.cpp	/^enum{PPM,JPG};$/;"	e	enum:__anon12	file:
+LATTICE	app.h	/^  enum APP_CLASSES{GENERAL,LATTICE,OFF_LATTICE};$/;"	e	enum:SPPARKS_NS::App::APP_CLASSES
+LE	dump_text.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon21	file:
+LE	set.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon32	file:
+LINE_2N	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+LINE_2N	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+LINE_2N	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+LN	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+LOG	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+LOOP	variable.cpp	/^enum{INDEX,LOOP,EQUAL,WORLD,UNIVERSE,ULOOP};$/;"	e	enum:__anon35	file:
+LT	dump_text.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon21	file:
+LT	set.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon32	file:
+Ladapt	app_lattice.h	/^  double Ladapt;               \/\/ adaptive sector time increments for KMC$/;"	m	class:SPPARKS_NS::AppLattice
+Lattice	lattice.cpp	/^Lattice::Lattice(SPPARKS *spk, int narg, char **arg) : Pointers(spk)$/;"	f	class:Lattice
+Lattice	lattice.h	/^class Lattice : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+MAX	diag_array.cpp	/^enum {MEAN,SUM,MIN,MAX};$/;"	e	enum:__anon9	file:
+MAX	pointers.h	35;"	d
+MAXBIGINT	spktype.h	52;"	d
+MAXJACOBI	math_extra.cpp	22;"	d	file:
+MAXLEVEL	variable.cpp	28;"	d	file:
+MAXLINE	dump_text.cpp	35;"	d	file:
+MAXLINE	input.cpp	42;"	d	file:
+MAXLINE	read_sites.cpp	32;"	d	file:
+MAXSMALLINT	spktype.h	50;"	d
+MAXSTR	output.cpp	30;"	d	file:
+MAXTAGINT	spktype.h	51;"	d
+MAXVALUE	image.cpp	/^enum{NUMERIC,MINVALUE,MAXVALUE};$/;"	e	enum:__anon23	file:
+MEAN	diag_array.cpp	/^enum {MEAN,SUM,MIN,MAX};$/;"	e	enum:__anon9	file:
+MIN	diag_array.cpp	/^enum {MEAN,SUM,MIN,MAX};$/;"	e	enum:__anon9	file:
+MIN	pointers.h	34;"	d
+MINVALUE	image.cpp	/^enum{NUMERIC,MINVALUE,MAXVALUE};$/;"	e	enum:__anon23	file:
+MPI_SPK_BIGINT	spktype.h	55;"	d
+MPI_SPK_TAGINT	spktype.h	54;"	d
+MULTIPLY	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+MYROUND	variable.cpp	30;"	d	file:
+MY_2PI	math_const.h	/^  static const double MY_2PI = 6.28318530717958647692; \/\/ 2pi$/;"	m	namespace:SPPARKS_NS::MathConst
+MY_3PI	math_const.h	/^  static const double MY_3PI = 9.42477796076937971538; \/\/ 3pi$/;"	m	namespace:SPPARKS_NS::MathConst
+MY_PI	math_const.h	/^  static const double MY_PI  = 3.14159265358979323846; \/\/ pi$/;"	m	namespace:SPPARKS_NS::MathConst
+MY_PI2	math_const.h	/^  static const double MY_PI2 = 1.57079632679489661923; \/\/ pi\/2$/;"	m	namespace:SPPARKS_NS::MathConst
+MY_PI4	math_const.h	/^  static const double MY_PI4 = 0.78539816339744830962; \/\/ pi\/4$/;"	m	namespace:SPPARKS_NS::MathConst
+MY_PIS	math_const.h	/^  static const double MY_PIS = 1.77245385090551602729; \/\/ sqrt(pi)$/;"	m	namespace:SPPARKS_NS::MathConst
+MapEntry	image.h	/^  struct MapEntry {$/;"	s	class:SPPARKS_NS::Image
+MathConst	math_const.h	/^namespace MathConst {$/;"	n	namespace:SPPARKS_NS
+MathExtra	math_extra.cpp	/^namespace MathExtra {$/;"	n	file:
+MathExtra	math_extra.h	/^namespace MathExtra {$/;"	n
+Memory	memory.cpp	/^Memory::Memory(SPPARKS *spk) : Pointers(spk) {}$/;"	f	class:Memory
+Memory	memory.h	/^class Memory : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+Mn	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+NCOLORS	image.cpp	38;"	d	file:
+NELEMENTS	image.cpp	39;"	d	file:
+NEQ	dump_text.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon21	file:
+NEQ	set.cpp	/^enum{LT,LE,GT,GE,EQ,NEQ};$/;"	e	enum:__anon32	file:
+NNHOP	app_vacancy.cpp	/^enum{DEPOSITION,NNHOP,SCHWOEBEL};$/;"	e	enum:__anon3	file:
+NO	dump_image.cpp	/^enum{NO,YES};$/;"	e	enum:__anon16	file:
+NO	image.cpp	/^enum{NO,YES};$/;"	e	enum:__anon26	file:
+NONE	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+NONE	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+NONE	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+NOSWEEP	app_lattice.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};$/;"	e	enum:__anon1	file:
+NOSWEEP	app_vacancy.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};  \/\/ from app_lattice.cpp$/;"	e	enum:__anon4	file:
+NSECTIONS	read_sites.cpp	37;"	d	file:
+NUMERIC	dump_image.cpp	/^enum{NUMERIC,IATTRIBUTE,DATTRIBUTE};$/;"	e	enum:__anon14	file:
+NUMERIC	image.cpp	/^enum{NUMERIC,MINVALUE,MAXVALUE};$/;"	e	enum:__anon23	file:
+Ni	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+Numrcount	comm_lattice.h	/^  int Numrcount;           \/\/ wubd 2016-12-30 test non 0 rcount num$/;"	m	class:SPPARKS_NS::CommLattice
+Numscount	comm_lattice.h	/^  int Numscount;           \/\/ wubd 2016-12-30 test non 0 scount num$/;"	m	class:SPPARKS_NS::CommLattice
+OBJ	Makefile	/^OBJ = 	$(SRC:.cpp=.o)$/;"	m
+OFF_LATTICE	app.h	/^  enum APP_CLASSES{GENERAL,LATTICE,OFF_LATTICE};$/;"	e	enum:SPPARKS_NS::App::APP_CLASSES
+OP	variable.cpp	/^enum{ARG,OP};$/;"	e	enum:__anon36	file:
+OPENDX	diag_cluster.h	/^  enum DumpStyles {STANDARD,OPENDX};$/;"	e	enum:SPPARKS_NS::DiagCluster::DumpStyles
+Output	output.cpp	/^Output::Output(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Output
+Output	output.h	/^class Output : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+PAIR_CLASS	potential.cpp	69;"	d	file:
+PAIR_CLASS	potential.cpp	73;"	d	file:
+PAIR_CLASS	spparks.cpp	373;"	d	file:
+PAIR_CLASS	spparks.cpp	376;"	d	file:
+PARTNUM	comm_lattice.cpp	35;"	d	file:
+PI	variable.h	/^  double PI;$/;"	m	class:SPPARKS_NS::Variable
+PPM	dump_image.cpp	/^enum{PPM,JPG};$/;"	e	enum:__anon12	file:
+PROPENSITY	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+PROPENSITY	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+PROPENSITY	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+Pair	pair.cpp	/^Pair::Pair(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Pair
+Pair	pair.h	/^class Pair : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+PairLJCut	pair_lj_cut.cpp	/^PairLJCut::PairLJCut(SPPARKS *spk) : Pair(spk) {}$/;"	f	class:PairLJCut
+PairLJCut	pair_lj_cut.h	/^class PairLJCut : public Pair {$/;"	c	namespace:SPPARKS_NS
+PairStyle	potential.cpp	70;"	d	file:
+PairStyle	spparks.cpp	374;"	d	file:
+Particle	comm_lattice.h	/^  struct Particle$/;"	s	class:SPPARKS_NS::CommLattice
+Point	set.cpp	/^class Point$/;"	c	file:
+Pointers	pointers.h	/^  Pointers(SPPARKS *ptr) :$/;"	f	class:SPPARKS_NS::Pointers
+Pointers	pointers.h	/^class Pointers {$/;"	c	namespace:SPPARKS_NS
+Potential	potential.cpp	/^Potential::Potential(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Potential
+Potential	potential.h	/^class Potential : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+R	pair.cpp	/^enum{R,RSQ,BMP};$/;"	e	enum:__anon29	file:
+RANDOM	app_lattice.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};$/;"	e	enum:__anon1	file:
+RANDOM	app_vacancy.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};  \/\/ from app_lattice.cpp$/;"	e	enum:__anon4	file:
+RANDOM_1D	create_sites.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon6	file:
+RANDOM_1D	diag_cluster.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon10	file:
+RANDOM_1D	lattice.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon27	file:
+RANDOM_2D	create_sites.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon6	file:
+RANDOM_2D	diag_cluster.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon10	file:
+RANDOM_2D	lattice.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon27	file:
+RANDOM_3D	create_sites.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon6	file:
+RANDOM_3D	diag_cluster.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon10	file:
+RANDOM_3D	lattice.cpp	/^       FCC_OCTA_TETRA,RANDOM_1D,RANDOM_2D,RANDOM_3D};$/;"	e	enum:__anon27	file:
+RANGE	set.cpp	/^enum{VALUE,RANGE,UNIQUE,DISPLACE};$/;"	e	enum:__anon31	file:
+RASTER	app_lattice.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};$/;"	e	enum:__anon1	file:
+RASTER	app_vacancy.cpp	/^enum{NOSWEEP,RANDOM,RASTER,COLOR,COLOR_STRICT};  \/\/ from app_lattice.cpp$/;"	e	enum:__anon4	file:
+REGION	create_sites.cpp	/^enum{BOX,REGION};$/;"	e	enum:__anon7	file:
+REGION_CLASS	domain.cpp	114;"	d	file:
+REGION_CLASS	domain.cpp	119;"	d	file:
+REGION_CLASS	spparks.cpp	380;"	d	file:
+REGION_CLASS	spparks.cpp	383;"	d	file:
+ROOT	Makefile	/^ROOT =	spk$/;"	m
+ROUND	variable.cpp	/^       CEIL,FLOOR,ROUND,VALUE};$/;"	e	enum:__anon37	file:
+RSQ	pair.cpp	/^enum{R,RSQ,BMP};$/;"	e	enum:__anon29	file:
+RanMars	random_mars.cpp	/^RanMars::RanMars(SPPARKS *spk) : Pointers(spk)$/;"	f	class:RanMars
+RanMars	random_mars.h	/^class RanMars : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+RandomPark	random_park.cpp	/^RandomPark::RandomPark(double rseed)$/;"	f	class:RandomPark
+RandomPark	random_park.cpp	/^RandomPark::RandomPark(int iseed)$/;"	f	class:RandomPark
+RandomPark	random_park.h	/^class RandomPark {$/;"	c	namespace:SPPARKS_NS
+ReadSites	read_sites.cpp	/^ReadSites::ReadSites(SPPARKS *spk) : Pointers(spk)$/;"	f	class:ReadSites
+ReadSites	read_sites.h	/^class ReadSites : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+RegBlock	region_block.cpp	/^RegBlock::RegBlock(SPPARKS *spk, int narg, char **arg) : Region(spk, narg, arg)$/;"	f	class:RegBlock
+RegBlock	region_block.h	/^class RegBlock : public Region {$/;"	c	namespace:SPPARKS_NS
+Region	region.cpp	/^Region::Region(SPPARKS *spk, int narg, char **arg) : Pointers(spk)$/;"	f	class:Region
+Region	region.h	/^class Region : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+RegionStyle	domain.cpp	115;"	d	file:
+RegionStyle	spparks.cpp	381;"	d	file:
+SCHWOEBEL	app_vacancy.cpp	/^enum{DEPOSITION,NNHOP,SCHWOEBEL};$/;"	e	enum:__anon3	file:
+SC_26N	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+SC_26N	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+SC_26N	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+SC_6N	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+SC_6N	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+SC_6N	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+SEQUENTIAL	image.cpp	/^enum{CONTINUOUS,DISCRETE,SEQUENTIAL};$/;"	e	enum:__anon24	file:
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIN	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+SITE	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+SITE	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+SITE	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+SIXTHPOWER	pair.cpp	/^enum{GEOMETRIC,ARITHMETIC,SIXTHPOWER};$/;"	e	enum:__anon28	file:
+SOLVE_CLASS	input.cpp	836;"	d	file:
+SOLVE_CLASS	input.cpp	840;"	d	file:
+SOLVE_CLASS	spparks.cpp	352;"	d	file:
+SOLVE_CLASS	spparks.cpp	355;"	d	file:
+SPHERE	dump_image.cpp	/^enum{SPHERE,CUBE};$/;"	e	enum:__anon13	file:
+SPK_APP_H	app.h	15;"	d
+SPK_APP_LATTICE_H	app_lattice.h	15;"	d
+SPK_CLUSTER_H	cluster.h	15;"	d
+SPK_COMM_LATTICE_H	comm_lattice.h	15;"	d
+SPK_DIAG_H	diag.h	15;"	d
+SPK_DOMAIN_H	domain.h	15;"	d
+SPK_DUMP_H	dump.h	15;"	d
+SPK_ERROR_H	error.h	15;"	d
+SPK_FINISH_H	finish.h	15;"	d
+SPK_GROUPS_H	groups.h	15;"	d
+SPK_IMAGE_H	image.h	15;"	d
+SPK_INPUT_H	input.h	15;"	d
+SPK_LATTICE_H	lattice.h	15;"	d
+SPK_MATH_CONST_H	math_const.h	15;"	d
+SPK_MATH_EXTRA_H	math_extra.h	19;"	d
+SPK_MEMORY_H	memory.h	15;"	d
+SPK_PAIR_H	pair.h	15;"	d
+SPK_POINTERS_H	pointers.h	22;"	d
+SPK_POTENTIAL_H	potential.h	15;"	d
+SPK_RANDOM_MARS_H	random_mars.h	15;"	d
+SPK_RANDOM_PARK_H	random_park.h	15;"	d
+SPK_REGION_H	region.h	15;"	d
+SPK_SOLVE_H	solve.h	15;"	d
+SPK_SPKTYPE_H	spktype.h	32;"	d
+SPK_SPPARKS_H	spparks.h	15;"	d
+SPK_TIMER_H	timer.h	15;"	d
+SPK_UNIVERSE_H	universe.h	15;"	d
+SPK_VARIABLE_H	variable.h	15;"	d
+SPPARKS	spparks.cpp	/^SPPARKS::SPPARKS(int narg, char **arg, MPI_Comm communicator)$/;"	f	class:SPPARKS
+SPPARKS	spparks.h	/^class SPPARKS {$/;"	c	namespace:SPPARKS_NS
+SPPARKS_NS	app.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	app_lattice.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	cluster.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	comm_lattice.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	create_box.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	create_sites.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	diag.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	diag_array.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	diag_cluster.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	diag_energy.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	diag_propensity.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	domain.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	dump.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	dump_image.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	dump_sites.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	dump_text.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	error.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	finish.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	groups.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	image.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	input.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	lattice.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	math_const.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	memory.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	output.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	pair.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	pair_lj_cut.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	pointers.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	potential.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	random_mars.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	random_park.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	read_sites.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	region.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	region_block.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	set.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	shell.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	solve.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	solve_group.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	solve_linear.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	solve_tree.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	spktype.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	spparks.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	timer.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	universe.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_NS	variable.h	/^namespace SPPARKS_NS {$/;"	n
+SPPARKS_VERSION	version.h	1;"	d
+SQRT	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+SQ_4N	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+SQ_4N	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+SQ_4N	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+SQ_8N	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+SQ_8N	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+SQ_8N	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+SRC	Makefile	/^SRC =	$(wildcard *.cpp)$/;"	m
+SSAOJitter	image.h	/^  double SSAOJitter;$/;"	m	class:SPPARKS_NS::Image
+SSAORadius	image.h	/^  double SSAORadius;$/;"	m	class:SPPARKS_NS::Image
+SSAOSamples	image.h	/^  int SSAOSamples;$/;"	m	class:SPPARKS_NS::Image
+STANDARD	diag_cluster.h	/^  enum DumpStyles {STANDARD,OPENDX};$/;"	e	enum:SPPARKS_NS::DiagCluster::DumpStyles
+STATIC	dump_image.cpp	/^enum{STATIC,DYNAMIC};$/;"	e	enum:__anon15	file:
+SUBTRACT	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+SUM	diag_array.cpp	/^enum {MEAN,SUM,MIN,MAX};$/;"	e	enum:__anon9	file:
+Set	app_lattice.h	/^  struct Set {                 \/\/ subset of lattice sites I own$/;"	s	class:SPPARKS_NS::AppLattice
+Set	set.cpp	/^Set::Set(SPPARKS *spk) : Pointers(spk) {}$/;"	f	class:Set
+Set	set.h	/^class Set : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+Shell	shell.cpp	/^Shell::Shell(SPPARKS *spk) : Pointers(spk) {}$/;"	f	class:Shell
+Shell	shell.h	/^class Shell : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+Si	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+Site	app_lattice.h	/^  struct Site {$/;"	s	class:SPPARKS_NS::AppLattice
+Site	create_sites.h	/^  struct Site {$/;"	s	class:SPPARKS_NS::CreateSites
+Solve	solve.cpp	/^Solve::Solve(SPPARKS *spk, int narg, char **arg) : Pointers(spk)$/;"	f	class:Solve
+Solve	solve.h	/^class Solve : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+SolveGroup	solve_group.cpp	/^SolveGroup::SolveGroup(SPPARKS *spk, int narg, char **arg) :$/;"	f	class:SolveGroup
+SolveGroup	solve_group.h	/^class SolveGroup : public Solve {$/;"	c	namespace:SPPARKS_NS
+SolveLinear	solve_linear.cpp	/^SolveLinear::SolveLinear(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:SolveLinear
+SolveLinear	solve_linear.h	/^class SolveLinear : public Solve {$/;"	c	namespace:SPPARKS_NS
+SolveStyle	input.cpp	837;"	d	file:
+SolveStyle	spparks.cpp	353;"	d	file:
+SolveTree	solve_tree.cpp	/^SolveTree::SolveTree(SPPARKS *spk, int narg, char **arg) : $/;"	f	class:SolveTree
+SolveTree	solve_tree.h	/^class SolveTree : public Solve {$/;"	c	namespace:SPPARKS_NS
+Swap	comm_lattice.h	/^  struct Swap {$/;"	s	class:SPPARKS_NS::CommLattice
+TAGINT	dump_text.cpp	/^enum{INT,DOUBLE,TAGINT};           \/\/ in other dump files$/;"	e	enum:__anon22	file:
+TAGINT	set.cpp	/^enum{INT,DOUBLE,TAGINT};$/;"	e	enum:__anon33	file:
+TAGINT_FORMAT	spktype.h	57;"	d
+TAN	variable.cpp	/^       SQRT,EXP,LN,LOG,SIN,COS,TAN,ASIN,ACOS,ATAN,$/;"	e	enum:__anon37	file:
+TESTMACHINE	Makefile	/^TESTMACHINE = serial$/;"	m
+THIRD	math_const.h	/^  static const double THIRD  = 1.0\/3.0;$/;"	m	namespace:SPPARKS_NS::MathConst
+TIME_APP	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TIME_COMM	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TIME_LOOP	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TIME_N	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TIME_OUTPUT	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TIME_SOLVE	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TIME_UPDATE	timer.h	/^enum{TIME_LOOP,TIME_SOLVE,TIME_UPDATE,TIME_COMM,TIME_OUTPUT,TIME_APP,TIME_N};$/;"	e	enum:SPPARKS_NS::__anon34
+TOP	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+TRI	create_sites.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon6	file:
+TRI	diag_cluster.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon10	file:
+TRI	lattice.cpp	/^enum{NONE,LINE_2N,SQ_4N,SQ_8N,TRI,SC_6N,SC_26N,FCC,BCC,DIAMOND,$/;"	e	enum:__anon27	file:
+Timer	timer.cpp	/^Timer::Timer(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Timer
+Timer	timer.h	/^class Timer : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+ULOOP	variable.cpp	/^enum{INDEX,LOOP,EQUAL,WORLD,UNIVERSE,ULOOP};$/;"	e	enum:__anon35	file:
+UNARY	variable.cpp	/^enum{DONE,ADD,SUBTRACT,MULTIPLY,DIVIDE,CARAT,UNARY,$/;"	e	enum:__anon37	file:
+UNIQUE	set.cpp	/^enum{VALUE,RANGE,UNIQUE,DISPLACE};$/;"	e	enum:__anon31	file:
+UNIVERSE	variable.cpp	/^enum{INDEX,LOOP,EQUAL,WORLD,UNIVERSE,ULOOP};$/;"	e	enum:__anon35	file:
+Universe	universe.cpp	/^Universe::Universe(SPPARKS *spk, MPI_Comm communicator) : Pointers(spk)$/;"	f	class:Universe
+Universe	universe.h	/^class Universe : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+VACANT	app_vacancy.cpp	/^enum{VACANT,Fe,Cu,Si,Mn,Ni,FeCu,TOP};$/;"	e	enum:__anon2	file:
+VALUE	set.cpp	/^enum{VALUE,RANGE,UNIQUE,DISPLACE};$/;"	e	enum:__anon31	file:
+VALUE	variable.cpp	/^       CEIL,FLOOR,ROUND,VALUE};$/;"	e	enum:__anon37	file:
+VARDELTA	variable.cpp	27;"	d	file:
+Variable	variable.cpp	/^Variable::Variable(SPPARKS *spk) : Pointers(spk)$/;"	f	class:Variable
+Variable	variable.h	/^class Variable : protected Pointers {$/;"	c	namespace:SPPARKS_NS
+WORLD	variable.cpp	/^enum{INDEX,LOOP,EQUAL,WORLD,UNIVERSE,ULOOP};$/;"	e	enum:__anon35	file:
+X	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+X	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+X	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+X	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+XYZ	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+Y	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+Y	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+Y	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+Y	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+YES	dump_image.cpp	/^enum{NO,YES};$/;"	e	enum:__anon16	file:
+YES	image.cpp	/^enum{NO,YES};$/;"	e	enum:__anon26	file:
+Z	dump_image.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon17	file:
+Z	dump_sites.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon19	file:
+Z	dump_text.cpp	/^enum{ID,SITE,X,Y,Z,ENERGY,PROPENSITY,IARRAY,DARRAY};  \/\/ in other dump files$/;"	e	enum:__anon20	file:
+Z	set.cpp	/^enum{IARRAY,DARRAY,X,Y,Z,XYZ,ID};$/;"	e	enum:__anon30	file:
+ZERO	app_vacancy.cpp	/^enum{ZERO,CM_EAM,CM_FS,CM_EAM3,CM_PPAIR2};$/;"	e	enum:__anon5	file:
+Zerorcount	comm_lattice.h	/^  int Zerorcount;           \/\/ wubd 2016-12-30 test 0 rcount num$/;"	m	class:SPPARKS_NS::CommLattice
+Zeroscount	comm_lattice.h	/^  int Zeroscount;           \/\/ wubd 2016-12-30 test 0 scount num$/;"	m	class:SPPARKS_NS::CommLattice
+__STDC_FORMAT_MACROS	spktype.h	35;"	d
+__STDC_LIMIT_MACROS	spktype.h	34;"	d
+a1	lattice.h	/^  double a1[3],a2[3],a3[3];            \/\/ edge vectors of unit cell$/;"	m	class:SPPARKS_NS::Lattice
+a2	lattice.h	/^  double a1[3],a2[3],a3[3];            \/\/ edge vectors of unit cell$/;"	m	class:SPPARKS_NS::Lattice
+a3	lattice.h	/^  double a1[3],a2[3],a3[3];            \/\/ edge vectors of unit cell$/;"	m	class:SPPARKS_NS::Lattice
+add3	math_extra.h	/^void MathExtra::add3(const double *v1, const double *v2, double *ans)$/;"	f	class:MathExtra
+add_basis	lattice.cpp	/^void Lattice::add_basis(double x, double y, double z)$/;"	f	class:Lattice
+add_cluster	diag_cluster.cpp	/^void DiagCluster::add_cluster(int id, int iv, double dv, double vol, $/;"	f	class:DiagCluster
+add_diag	output.cpp	/^void Output::add_diag(Diag *diag)$/;"	f	class:Output
+add_dump	output.cpp	/^void Output::add_dump(int narg, char **arg)$/;"	f	class:Output
+add_event	app_vacancy.cpp	/^void AppVacancy::add_event(int i, int destination, $/;"	f	class:AppVacancy
+add_ghost	app_lattice.cpp	/^void AppLattice::add_ghost(tagint n, double x, double y, double z)$/;"	f	class:AppLattice
+add_neigh	cluster.cpp	/^void Cluster::add_neigh(int id) {$/;"	f	class:Cluster
+add_neighbors	app_lattice.cpp	/^void AppLattice::add_neighbors(int i, int nvalues, char **values)$/;"	f	class:AppLattice
+add_pbcflags	cluster.cpp	/^void Cluster::add_pbcflags(int id, int* pbcflags_in) {$/;"	f	class:Cluster
+add_region	domain.cpp	/^void Domain::add_region(int narg, char **arg)$/;"	f	class:Domain
+add_site	app_lattice.cpp	/^void AppLattice::add_site(tagint n, double x, double y, double z)$/;"	f	class:AppLattice
+add_to_send	app_vacancy.cpp	/^void AppVacancy::add_to_send()$/;"	f	class:AppVacancy
+add_to_send	comm_lattice.cpp	/^void CommLattice::add_to_send(int site, int x, int y, int z)$/;"	f	class:CommLattice
+add_to_wait	app_vacancy.cpp	/^void AppVacancy::add_to_wait(int x, int y, int z) $/;"	f	class:AppVacancy
+add_value	app_lattice.cpp	/^void AppLattice::add_value(int i, int type, int index, char *value)$/;"	f	class:AppLattice
+add_values	app_lattice.cpp	/^void AppLattice::add_values(int i, char **values)$/;"	f	class:AppLattice
+add_world	universe.cpp	/^void Universe::add_world(char *str)$/;"	f	class:Universe
+addcolor	image.cpp	/^int Image::addcolor(char *name, double r, double g, double b)$/;"	f	class:Image
+all	error.cpp	/^void Error::all(const char *file, int line, const char *str)$/;"	f	class:Error
+allocate	pair_lj_cut.cpp	/^void PairLJCut::allocate()$/;"	f	class:PairLJCut
+allocate_data	app_vacancy.cpp	/^void AppVacancy::allocate_data()$/;"	f	class:AppVacancy
+allocate_memory	groups.cpp	/^void Groups::allocate_memory(int n)$/;"	f	class:Groups
+allocated	pair.h	/^  int allocated;                       \/\/ 0\/1 = whether arrays are allocated$/;"	m	class:SPPARKS_NS::Pair
+allow_kmc	app_lattice.h	/^  int allow_kmc;               \/\/ 1 if app supports KMC$/;"	m	class:SPPARKS_NS::AppLattice
+allow_masking	app_lattice.h	/^  int allow_masking;           \/\/ 1 if app supports rKMC masking$/;"	m	class:SPPARKS_NS::AppLattice
+allow_rejection	app_lattice.h	/^  int allow_rejection;         \/\/ 1 if app supports rejection KMC$/;"	m	class:SPPARKS_NS::AppLattice
+allow_update	app_lattice.h	/^  int allow_update;            \/\/ 1 if app provides user_update()$/;"	m	class:SPPARKS_NS::AppLattice
+allswap	comm_lattice.h	/^  Swap allswap;$/;"	m	class:SPPARKS_NS::CommLattice
+alter_element	groups.cpp	/^void Groups::alter_element(int n, double *p, double p_new)$/;"	f	class:Groups
+ambientColor	image.h	/^  double ambientColor[3];$/;"	m	class:SPPARKS_NS::Image
+analyze_clusters	diag_cluster.cpp	/^void DiagCluster::analyze_clusters()$/;"	f	class:DiagCluster
+angmom_to_omega	math_extra.cpp	/^void angmom_to_omega(double *m, double *ex, double *ey, double *ez,$/;"	f	namespace:MathExtra
+app	pointers.h	/^  App *&app;$/;"	m	class:SPPARKS_NS::Pointers
+app	spparks.h	/^  class App *app;                \/\/ application$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::App
+app_style	input.cpp	/^void Input::app_style()$/;"	f	class:Input
+appclass	app.h	/^  int appclass;           \/\/ one of the enum values$/;"	m	class:SPPARKS_NS::App
+applattice	create_sites.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::CreateSites	typeref:class:SPPARKS_NS::CreateSites::AppLattice
+applattice	diag_array.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::DiagArray	typeref:class:SPPARKS_NS::DiagArray::AppLattice
+applattice	diag_cluster.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::DiagCluster	typeref:class:SPPARKS_NS::DiagCluster::AppLattice
+applattice	diag_energy.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::DiagEnergy	typeref:class:SPPARKS_NS::DiagEnergy::AppLattice
+applattice	diag_propensity.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::DiagPropensity	typeref:class:SPPARKS_NS::DiagPropensity::AppLattice
+applattice	dump.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::Dump	typeref:class:SPPARKS_NS::Dump::AppLattice
+applattice	dump_image.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::DumpImage	typeref:class:SPPARKS_NS::DumpImage::AppLattice
+applattice	read_sites.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::ReadSites	typeref:class:SPPARKS_NS::ReadSites::AppLattice
+applattice	set.h	/^  class AppLattice *applattice;$/;"	m	class:SPPARKS_NS::Set	typeref:class:SPPARKS_NS::Set::AppLattice
+appoff	dump.h	/^  class AppOffLattice *appoff;$/;"	m	class:SPPARKS_NS::Dump	typeref:class:SPPARKS_NS::Dump::AppOffLattice
+appoff	read_sites.h	/^  class AppOffLattice *appoff;$/;"	m	class:SPPARKS_NS::ReadSites	typeref:class:SPPARKS_NS::ReadSites::AppOffLattice
+appvacancy	create_sites.h	/^  class AppVacancy *appvacancy;$/;"	m	class:SPPARKS_NS::CreateSites	typeref:class:SPPARKS_NS::CreateSites::AppVacancy
+arg	input.h	/^  char **arg;                  \/\/ parsed args for command$/;"	m	class:SPPARKS_NS::Input
+arg	read_sites.h	/^  char **arg;$/;"	m	class:SPPARKS_NS::ReadSites
+array	timer.h	/^  double *array;$/;"	m	class:SPPARKS_NS::Timer
+axesdiam	dump_image.h	/^  double boxdiam,axeslen,axesdiam; \/\/ params for drawing box and axes$/;"	m	class:SPPARKS_NS::DumpImage
+axesflag	dump_image.h	/^  int boxflag,axesflag;            \/\/ 0\/1 for draw box and axes$/;"	m	class:SPPARKS_NS::DumpImage
+axeslen	dump_image.h	/^  double boxdiam,axeslen,axesdiam; \/\/ params for drawing box and axes$/;"	m	class:SPPARKS_NS::DumpImage
+axisangle_to_quat	math_extra.h	/^void MathExtra::axisangle_to_quat(const double *v, const double angle,$/;"	f	class:MathExtra
+backLightColor	image.h	/^  double backLightColor[3];$/;"	m	class:SPPARKS_NS::Image
+backLightDir	image.h	/^  double keyLightDir[3],fillLightDir[3],backLightDir[3];$/;"	m	class:SPPARKS_NS::Image
+backLightPhi	image.h	/^  double backLightPhi;$/;"	m	class:SPPARKS_NS::Image
+backLightTheta	image.h	/^  double backLightTheta;$/;"	m	class:SPPARKS_NS::Image
+background	image.h	/^  int background[3];            \/\/ RGB values of background$/;"	m	class:SPPARKS_NS::Image
+barrier_start	timer.cpp	/^void Timer::barrier_start(int which)$/;"	f	class:Timer
+barrier_stop	timer.cpp	/^void Timer::barrier_stop(int which)$/;"	f	class:Timer
+basis	lattice.h	/^  double **basis;                      \/\/ fractional coords of each basis atom$/;"	m	class:SPPARKS_NS::Lattice
+basis_dvalue	create_sites.h	/^  double *basis_dvalue;$/;"	m	class:SPPARKS_NS::CreateSites
+basis_ivalue	create_sites.h	/^  int *basisflag,*basis_ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+basisflag	create_sites.h	/^  int *basisflag,*basis_ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+bigint	spktype.h	/^typedef int64_t bigint;$/;"	t	namespace:SPPARKS_NS
+bigrandom	random_park.cpp	/^bigint RandomPark::bigrandom(bigint n)$/;"	f	class:RandomPark
+binary	dump.h	/^  int binary;                \/\/ 1 if dump file is written binary, 0 no$/;"	m	class:SPPARKS_NS::Dump
+border	app_lattice.h	/^    int *border;               \/\/ lattice index for each border site$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+bothflag	app_lattice.h	/^  int bothflag;                \/\/ 1 if both sectors and colors$/;"	m	class:SPPARKS_NS::AppLattice
+boundary	input.cpp	/^void Input::boundary()$/;"	f	class:Input
+boundcolor	dump_image.h	/^  double *boundcolor;$/;"	m	class:SPPARKS_NS::DumpImage
+bounddiam	dump_image.h	/^  double bounddiam;$/;"	m	class:SPPARKS_NS::DumpImage
+boundflag	dump_image.h	/^  int shape,boundflag,scolor,sdiam,boundvalue,boundindex;$/;"	m	class:SPPARKS_NS::DumpImage
+boundindex	dump_image.h	/^  int shape,boundflag,scolor,sdiam,boundvalue,boundindex;$/;"	m	class:SPPARKS_NS::DumpImage
+bounds	app_lattice.cpp	/^void AppLattice::bounds(char *str, int lo, int hi, int &nlo, int &nhi)$/;"	f	class:AppLattice
+bounds	dump_image.cpp	/^void DumpImage::bounds(char *str, int lo, int hi, int &nlo, int &nhi)$/;"	f	class:DumpImage
+bounds	potential.cpp	/^void Potential::bounds(char *str, int nmax, int &nlo, int &nhi)$/;"	f	class:Potential
+boundvalue	dump_image.h	/^  int shape,boundflag,scolor,sdiam,boundvalue,boundindex;$/;"	m	class:SPPARKS_NS::DumpImage
+box2sub	app_vacancy.cpp	/^void AppVacancy::box2sub(int* x, int* y, int* z)$/;"	f	class:AppVacancy
+box_center	dump_image.cpp	/^void DumpImage::box_center()$/;"	f	class:DumpImage
+box_exist	domain.h	/^  int box_exist;                    \/\/ 0 = not yet created, 1 = exists$/;"	m	class:SPPARKS_NS::Domain
+boxcolor	image.h	/^  double *boxcolor;             \/\/ color to draw box outline with$/;"	m	class:SPPARKS_NS::Image
+boxdiam	dump_image.h	/^  double boxdiam,axeslen,axesdiam; \/\/ params for drawing box and axes$/;"	m	class:SPPARKS_NS::DumpImage
+boxflag	dump_image.h	/^  int boxflag,axesflag;            \/\/ 0\/1 for draw box and axes$/;"	m	class:SPPARKS_NS::DumpImage
+boxxhi	diag_cluster.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ simulation box bounds$/;"	m	class:SPPARKS_NS::DiagCluster
+boxxhi	domain.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ global box bounds$/;"	m	class:SPPARKS_NS::Domain
+boxxhi	dump.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::Dump
+boxxhi	read_sites.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::ReadSites
+boxxlo	diag_cluster.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ simulation box bounds$/;"	m	class:SPPARKS_NS::DiagCluster
+boxxlo	domain.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ global box bounds$/;"	m	class:SPPARKS_NS::Domain
+boxxlo	dump.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::Dump
+boxxlo	read_sites.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::ReadSites
+boxyhi	diag_cluster.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ simulation box bounds$/;"	m	class:SPPARKS_NS::DiagCluster
+boxyhi	domain.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ global box bounds$/;"	m	class:SPPARKS_NS::Domain
+boxyhi	dump.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::Dump
+boxyhi	read_sites.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::ReadSites
+boxylo	diag_cluster.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ simulation box bounds$/;"	m	class:SPPARKS_NS::DiagCluster
+boxylo	domain.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ global box bounds$/;"	m	class:SPPARKS_NS::Domain
+boxylo	dump.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::Dump
+boxylo	read_sites.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::ReadSites
+boxzhi	diag_cluster.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ simulation box bounds$/;"	m	class:SPPARKS_NS::DiagCluster
+boxzhi	domain.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ global box bounds$/;"	m	class:SPPARKS_NS::Domain
+boxzhi	dump.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::Dump
+boxzhi	read_sites.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::ReadSites
+boxzlo	diag_cluster.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ simulation box bounds$/;"	m	class:SPPARKS_NS::DiagCluster
+boxzlo	domain.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;    \/\/ global box bounds$/;"	m	class:SPPARKS_NS::Domain
+boxzlo	dump.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::Dump
+boxzlo	read_sites.h	/^  double boxxlo,boxxhi,boxylo,boxyhi,boxzlo,boxzhi;$/;"	m	class:SPPARKS_NS::ReadSites
+buf	dump.h	/^  double *buf;               \/\/ memory for site quantities$/;"	m	class:SPPARKS_NS::Dump
+bufcompare	dump.cpp	/^int Dump::bufcompare(const void *pi, const void *pj)$/;"	f	class:Dump
+bufcompare_reverse	dump.cpp	/^int Dump::bufcompare_reverse(const void *pi, const void *pj)$/;"	f	class:Dump
+buffer	read_sites.h	/^  char *line,*keyword,*buffer;$/;"	m	class:SPPARKS_NS::ReadSites
+buffers	image.cpp	/^void Image::buffers()$/;"	f	class:Image
+bufsort	dump.h	/^  double *bufsort;$/;"	m	class:SPPARKS_NS::Dump
+c	random_mars.h	/^  double c,cd,cm;$/;"	m	class:SPPARKS_NS::RanMars
+calcul_de	app_vacancy.cpp	/^double AppVacancy::calcul_de(int initsite, int di, int dj, int dk, int *jumpsite) {$/;"	f	class:AppVacancy
+calcul_de_FeCu	app_vacancy.cpp	/^double AppVacancy::calcul_de_FeCu(int initsite, int di, int dj, int dk, int *jumpsite) {$/;"	f	class:AppVacancy
+calcul_dene_v1	app_vacancy.cpp	/^double AppVacancy::calcul_dene_v1(int it, int ii, int jj, int kk, int nn, double sign)$/;"	f	class:AppVacancy
+calcul_dene_v2	app_vacancy.cpp	/^double AppVacancy::calcul_dene_v2(int it, int ii, int jj, int kk, int nn1, int nn2)$/;"	f	class:AppVacancy
+camDir	image.h	/^  double camDir[3],camUp[3],camRight[4],camPos[3];$/;"	m	class:SPPARKS_NS::Image
+camPos	image.h	/^  double camDir[3],camUp[3],camRight[4],camPos[3];$/;"	m	class:SPPARKS_NS::Image
+camRight	image.h	/^  double camDir[3],camUp[3],camRight[4],camPos[3];$/;"	m	class:SPPARKS_NS::Image
+camUp	image.h	/^  double camDir[3],camUp[3],camRight[4],camPos[3];$/;"	m	class:SPPARKS_NS::Image
+cd	random_mars.h	/^  double c,cd,cm;$/;"	m	class:SPPARKS_NS::RanMars
+cflag	dump_image.h	/^  int cflag;                       \/\/ static\/dynamic box center$/;"	m	class:SPPARKS_NS::DumpImage
+chi	dump_image.h	/^  int clo,chi,dlo,dhi;$/;"	m	class:SPPARKS_NS::DumpImage
+choose	dump_text.h	/^  int *choose;               \/\/ lists of sites chosen for output$/;"	m	class:SPPARKS_NS::DumpText
+clear	image.cpp	/^void Image::clear()$/;"	f	class:Image
+clear	input.cpp	/^void Input::clear()$/;"	f	class:Input
+clear_events	app_vacancy.cpp	/^void AppVacancy::clear_events(int i)$/;"	f	class:AppVacancy
+clist	dump_text.h	/^  int *clist;                \/\/ compressed list of indices of selected atoms$/;"	m	class:SPPARKS_NS::DumpText
+clo	dump_image.h	/^  int clo,chi,dlo,dhi;$/;"	m	class:SPPARKS_NS::DumpImage
+clone	solve_group.cpp	/^SolveGroup *SolveGroup::clone()$/;"	f	class:SolveGroup
+clone	solve_linear.cpp	/^SolveLinear *SolveLinear::clone()$/;"	f	class:SolveLinear
+clone	solve_tree.cpp	/^SolveTree *SolveTree::clone()$/;"	f	class:SolveTree
+cluster_ids	diag_cluster.h	/^  int *cluster_ids;$/;"	m	class:SPPARKS_NS::DiagCluster
+clustercomm	dump.h	/^  MPI_Comm clustercomm;      \/\/ MPI communicator within my cluster of procs$/;"	m	class:SPPARKS_NS::Dump
+clustlist	diag_cluster.h	/^  class Cluster *clustlist;$/;"	m	class:SPPARKS_NS::DiagCluster	typeref:class:SPPARKS_NS::DiagCluster::Cluster
+cluststack	diag_cluster.h	/^  std::stack<int> cluststack;      \/\/ stack for performing cluster analysis$/;"	m	class:SPPARKS_NS::DiagCluster
+cm	random_mars.h	/^  double c,cd,cm;$/;"	m	class:SPPARKS_NS::RanMars
+cmap	create_sites.h	/^  int ***cmap;                 \/\/ connectivity map for regular lattices$/;"	m	class:SPPARKS_NS::CreateSites
+coeff	pair_lj_cut.cpp	/^void PairLJCut::coeff(int narg, char **arg)$/;"	f	class:PairLJCut
+color	image.h	/^    double *color;                 \/\/ RGB values$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+color2rgb	image.cpp	/^double *Image::color2rgb(const char *color, int index)$/;"	f	class:Image
+color_memflag	dump_image.h	/^  int *color_memflag;$/;"	m	class:SPPARKS_NS::DumpImage
+color_minmax	image.cpp	/^void Image::color_minmax(int n, double *buf, int stride)$/;"	f	class:Image
+colorattribute	dump_image.h	/^  double **colorattribute;$/;"	m	class:SPPARKS_NS::DumpImage
+colormap	image.cpp	/^int Image::colormap(int narg, char **arg)$/;"	f	class:Image
+columns	dump_text.h	/^  char *columns;             \/\/ text describing columns of dump output$/;"	m	class:SPPARKS_NS::DumpText
+columns	read_sites.h	/^  char *columns;             \/\/ text describing columns of Values section$/;"	m	class:SPPARKS_NS::ReadSites
+columns_orig	dump_text.h	/^  char *columns_orig;        \/\/ same w\/out "site" changed to "type"$/;"	m	class:SPPARKS_NS::DumpText
+comm	app_lattice.h	/^  class CommLattice *comm;$/;"	m	class:SPPARKS_NS::AppLattice	typeref:class:SPPARKS_NS::AppLattice::CommLattice
+comm	diag_cluster.h	/^  class CommLattice *comm;$/;"	m	class:SPPARKS_NS::DiagCluster	typeref:class:SPPARKS_NS::DiagCluster::CommLattice
+command	create_box.cpp	/^void CreateBox::command(int narg, char **arg)$/;"	f	class:CreateBox
+command	create_sites.cpp	/^void CreateSites::command(int narg, char **arg)$/;"	f	class:CreateSites
+command	input.h	/^  char *command;               \/\/ ptr to current command$/;"	m	class:SPPARKS_NS::Input
+command	read_sites.cpp	/^void ReadSites::command(int narg, char **arg)$/;"	f	class:ReadSites
+command	set.cpp	/^void Set::command(int narg, char **arg)$/;"	f	class:Set
+command	shell.cpp	/^void Shell::command(int narg, char **arg)$/;"	f	class:Shell
+communicate	app_lattice.h	/^  virtual void communicate(){}$/;"	f	class:SPPARKS_NS::AppLattice
+communicate	app_vacancy.cpp	/^void AppVacancy::communicate()$/;"	f	class:AppVacancy
+compressed	dump.h	/^  int compressed;            \/\/ 1 if dump file is written compressed, 0 no$/;"	m	class:SPPARKS_NS::Dump
+compressed	read_sites.h	/^  int narg,maxarg,compressed;$/;"	m	class:SPPARKS_NS::ReadSites
+compute	diag_array.cpp	/^void DiagArray::compute()$/;"	f	class:DiagArray
+compute	diag_cluster.cpp	/^void DiagCluster::compute()$/;"	f	class:DiagCluster
+compute	diag_energy.cpp	/^void DiagEnergy::compute()$/;"	f	class:DiagEnergy
+compute	diag_propensity.cpp	/^void DiagPropensity::compute()$/;"	f	class:DiagPropensity
+compute	output.cpp	/^double Output::compute(double time, int done)$/;"	f	class:Output
+compute_SSAO	image.cpp	/^void Image::compute_SSAO()$/;"	f	class:Image
+compute_e	app_lattice.h	/^  virtual void compute_e(int) {}$/;"	f	class:SPPARKS_NS::AppLattice
+compute_e	app_lattice.h	/^  virtual void compute_e(int, int) {}$/;"	f	class:SPPARKS_NS::AppLattice
+compute_e	app_vacancy.cpp	/^void AppVacancy::compute_e(int initsite) {$/;"	f	class:AppVacancy
+compute_energy	app_vacancy.cpp	/^void AppVacancy::compute_energy()$/;"	f	class:AppVacancy
+compute_equal	variable.cpp	/^double Variable::compute_equal(int ivar)$/;"	f	class:Variable
+compute_linedis	app_vacancy.cpp	/^double AppVacancy::compute_linedis(int site1, int site2) {$/;"	f	class:AppVacancy
+cond	set.h	/^  Condition *cond;$/;"	m	class:SPPARKS_NS::Set
+condition	set.cpp	/^int Set::condition(int i)$/;"	f	class:Set
+connected_ghosts	app_lattice.cpp	/^void AppLattice::connected_ghosts(int i, int* cluster_ids, $/;"	f	class:AppLattice
+consistent	universe.cpp	/^int Universe::consistent()$/;"	f	class:Universe
+constant	variable.cpp	/^double Variable::constant(char *word)$/;"	f	class:Variable
+contiguous_sites	app.cpp	/^int App::contiguous_sites()$/;"	f	class:App
+copy	input.h	/^  char *line,*copy,*work;      \/\/ input line & copy of it$/;"	m	class:SPPARKS_NS::Input
+copy	variable.cpp	/^void Variable::copy(int narg, char **from, char **to)$/;"	f	class:Variable
+count	dump_text.cpp	/^int DumpText::count()$/;"	f	class:DumpText
+count	set.h	/^  int count;$/;"	m	class:SPPARKS_NS::Set
+count_vac	app_lattice.h	/^  virtual void count_vac(int, int *, std::map<int,int> *) {}$/;"	f	class:SPPARKS_NS::AppLattice
+count_vac	app_vacancy.cpp	/^void AppVacancy::count_vac(int nlocal, int *site2i, std::map<int,int> *vacant)$/;"	f	class:AppVacancy
+count_words	read_sites.cpp	/^int ReadSites::count_words(char *line)$/;"	f	class:ReadSites
+crange	dump_image.h	/^  int crange,drange;$/;"	m	class:SPPARKS_NS::DumpImage
+create	memory.h	/^    TYPE *****create(TYPE *****&array, int n1, int n2, int n3, int n4,$/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE ****create(TYPE ****&array, int n1, int n2, int n3, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE ****create(TYPE ****&array, int n1, int n2, int n3, int n4,$/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE ***create(TYPE ***&array, int n1, int n2, const char *name)$/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE ***create(TYPE ***&array, int n1, int n2, int n3, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE **create(TYPE **&array, int n, const char *name) {fail(name);}$/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE **create(TYPE **&array, int n1, int n2, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+create	memory.h	/^    TYPE *create(TYPE *&array, int n, const char *name)$/;"	f	class:SPPARKS_NS::Memory
+create	spparks.cpp	/^void SPPARKS::create()$/;"	f	class:SPPARKS
+create1d_offset	memory.h	/^    TYPE **create1d_offset(TYPE **&array, int nlo, int nhi, const char *name)$/;"	f	class:SPPARKS_NS::Memory
+create1d_offset	memory.h	/^    TYPE *create1d_offset(TYPE *&array, int nlo, int nhi, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+create2d_offset	memory.h	/^    TYPE ***create2d_offset(TYPE ***&array, int n1, int n2lo, int n2hi,$/;"	f	class:SPPARKS_NS::Memory
+create2d_offset	memory.h	/^    TYPE **create2d_offset(TYPE **&array, int n1, int n2lo, int n2hi,$/;"	f	class:SPPARKS_NS::Memory
+create3d_offset	memory.h	/^    TYPE ****create3d_offset(TYPE ****&array, int n1lo, int n1hi, $/;"	f	class:SPPARKS_NS::Memory
+create3d_offset	memory.h	/^    TYPE ***create3d_offset(TYPE ***&array, int n1lo, int n1hi, $/;"	f	class:SPPARKS_NS::Memory
+create_all	comm_lattice.cpp	/^void CommLattice::create_all()$/;"	f	class:CommLattice
+create_arrays	app.cpp	/^void App::create_arrays()$/;"	f	class:App
+create_comm_all	app_lattice.h	/^  virtual void create_comm_all() {}$/;"	f	class:SPPARKS_NS::AppLattice
+create_image	dump_image.cpp	/^void DumpImage::create_image()$/;"	f	class:DumpImage
+create_pair	potential.cpp	/^void Potential::create_pair(const char *style)$/;"	f	class:Potential
+create_ragged	memory.h	/^    TYPE ***create_ragged(TYPE ***&array, int n1, int *n2, const char *name)$/;"	f	class:SPPARKS_NS::Memory
+create_ragged	memory.h	/^    TYPE **create_ragged(TYPE **&array, int n1, int *n2, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+create_set	app_lattice.cpp	/^void AppLattice::create_set(int iset, int isector, Solve *oldsolve)$/;"	f	class:AppLattice
+create_set	comm_lattice.cpp	/^void CommLattice::create_set()$/;"	f	class:CommLattice
+cross3	math_extra.h	/^void MathExtra::cross3(const double *v1, const double *v2, double *ans)$/;"	f	class:MathExtra
+ctype	comm_lattice.h	/^  MPI_Datatype ctype;$/;"	m	class:SPPARKS_NS::CommLattice
+cu_alone	diag_energy.h	/^  int cu_alone;$/;"	m	class:SPPARKS_NS::DiagEnergy
+cur_setswap	comm_lattice.h	/^  Swap *cur_setswap;$/;"	m	class:SPPARKS_NS::CommLattice
+current	timer.cpp	/^void Timer::current()$/;"	f	class:Timer
+current_set	app_lattice.h	/^  int current_set; $/;"	m	class:SPPARKS_NS::AppLattice
+cut	pair_lj_cut.h	/^  double **cut;$/;"	m	class:SPPARKS_NS::PairLJCut
+cut_global	pair_lj_cut.h	/^  double cut_global;$/;"	m	class:SPPARKS_NS::PairLJCut
+cutoff	lattice.h	/^  double cutoff;                       \/\/ neighbor cutoff for random lattices$/;"	m	class:SPPARKS_NS::Lattice
+cutoff	pair.h	/^  double cutoff;$/;"	m	class:SPPARKS_NS::Pair
+cutsq	pair.h	/^  double **cutsq;$/;"	m	class:SPPARKS_NS::Pair
+cwrap	dump_image.h	/^  int cwrap,dwrap;                 \/\/ 0\/1 for wrapping color\/diam to c\/drange$/;"	m	class:SPPARKS_NS::DumpImage
+cx	cluster.h	/^  double cx, cy, cz;  \/\/ centroid of cluster$/;"	m	class:SPPARKS_NS::Cluster
+cx	dump_image.h	/^  double cx,cy,cz;                 \/\/ fractional box center$/;"	m	class:SPPARKS_NS::DumpImage
+cxstr	dump_image.h	/^  char *cxstr,*cystr,*czstr;       \/\/ variables for box center$/;"	m	class:SPPARKS_NS::DumpImage
+cxvar	dump_image.h	/^  int cxvar,cyvar,czvar;           \/\/ index to box center vars$/;"	m	class:SPPARKS_NS::DumpImage
+cy	cluster.h	/^  double cx, cy, cz;  \/\/ centroid of cluster$/;"	m	class:SPPARKS_NS::Cluster
+cy	dump_image.h	/^  double cx,cy,cz;                 \/\/ fractional box center$/;"	m	class:SPPARKS_NS::DumpImage
+cystr	dump_image.h	/^  char *cxstr,*cystr,*czstr;       \/\/ variables for box center$/;"	m	class:SPPARKS_NS::DumpImage
+cyvar	dump_image.h	/^  int cxvar,cyvar,czvar;           \/\/ index to box center vars$/;"	m	class:SPPARKS_NS::DumpImage
+cz	cluster.h	/^  double cx, cy, cz;  \/\/ centroid of cluster$/;"	m	class:SPPARKS_NS::Cluster
+cz	dump_image.h	/^  double cx,cy,cz;                 \/\/ fractional box center$/;"	m	class:SPPARKS_NS::DumpImage
+czstr	dump_image.h	/^  char *cxstr,*cystr,*czstr;       \/\/ variables for box center$/;"	m	class:SPPARKS_NS::DumpImage
+czvar	dump_image.h	/^  int cxvar,cyvar,czvar;           \/\/ index to box center vars$/;"	m	class:SPPARKS_NS::DumpImage
+darray	app.h	/^  double **darray;             \/\/ one or more doubles per site$/;"	m	class:SPPARKS_NS::App
+darray	comm_lattice.h	/^  double **darray;$/;"	m	class:SPPARKS_NS::CommLattice
+data	variable.h	/^  char ***data;            \/\/ str value of each variable's values$/;"	m	class:SPPARKS_NS::Variable
+dchoose	dump_text.h	/^  double *dchoose;           \/\/ value for each atom to threshhold against$/;"	m	class:SPPARKS_NS::DumpText
+default_colors	image.cpp	/^int Image::default_colors()$/;"	f	class:Image
+delay	diag.h	/^  double scale,delay;$/;"	m	class:SPPARKS_NS::Diag
+delay	dump.h	/^  double scale,delay;$/;"	m	class:SPPARKS_NS::Dump
+delete1	app_vacancy.cpp	/^double AppVacancy::delete1(int it, double *e_v, double *e_r, double *e_s)$/;"	f	class:AppVacancy
+delevent	app_lattice.h	/^  int delevent;                \/\/ # of sites away affected by an event$/;"	m	class:SPPARKS_NS::AppLattice
+delghost	comm_lattice.h	/^  int delghost,delreverse;$/;"	m	class:SPPARKS_NS::CommLattice
+delpropensity	app_lattice.h	/^  int delpropensity;           \/\/ # of sites away needed to compute propensity$/;"	m	class:SPPARKS_NS::AppLattice
+delreverse	comm_lattice.h	/^  int delghost,delreverse;$/;"	m	class:SPPARKS_NS::CommLattice
+delta	diag.h	/^  double next_time,delta;           \/\/ output params for stats_flag = 0$/;"	m	class:SPPARKS_NS::Diag
+delta	dump.h	/^  double next_time,delta;    \/\/ params governing output times$/;"	m	class:SPPARKS_NS::Dump
+depthBuffer	image.h	/^  double *depthBuffer,*surfaceBuffer;$/;"	m	class:SPPARKS_NS::Image
+depthcopy	image.h	/^  double *depthcopy,*surfacecopy;$/;"	m	class:SPPARKS_NS::Image
+des	set.cpp	/^    double des;$/;"	m	class:Point	file:
+destroy	memory.h	/^    void destroy(TYPE ****array)$/;"	f	class:SPPARKS_NS::Memory
+destroy	memory.h	/^    void destroy(TYPE ***array) $/;"	f	class:SPPARKS_NS::Memory
+destroy	memory.h	/^    void destroy(TYPE **array)$/;"	f	class:SPPARKS_NS::Memory
+destroy	memory.h	/^    void destroy(TYPE *array) $/;"	f	class:SPPARKS_NS::Memory
+destroy	spparks.cpp	/^void SPPARKS::destroy()$/;"	f	class:SPPARKS
+destroy1d_offset	memory.h	/^    void destroy1d_offset(TYPE *array, int offset) $/;"	f	class:SPPARKS_NS::Memory
+destroy2d_offset	memory.h	/^    void destroy2d_offset(TYPE **array, int offset)$/;"	f	class:SPPARKS_NS::Memory
+destroy3d_offset	memory.h	/^    void destroy3d_offset(TYPE ***array, $/;"	f	class:SPPARKS_NS::Memory
+destroy3d_offset	memory.h	/^    void destroy3d_offset(TYPE ***array, int offset)$/;"	f	class:SPPARKS_NS::Memory
+destroy_map	comm_lattice.cpp	/^void CommLattice::destroy_map(std::map<int,int*> *doclean)$/;"	f	class:CommLattice
+det3	math_extra.h	/^double MathExtra::det3(const double m[3][3])$/;"	f	class:MathExtra
+dhi	dump_image.h	/^  int clo,chi,dlo,dhi;$/;"	m	class:SPPARKS_NS::DumpImage
+diag_method	diag_array.h	/^  int *diag_method;$/;"	m	class:SPPARKS_NS::DiagArray
+diag_style	input.cpp	/^void Input::diag_style()$/;"	f	class:Input
+diag_times3	math_extra.h	/^void MathExtra::diag_times3(const double *d, const double m[3][3],$/;"	f	class:MathExtra
+diaglist	output.h	/^  class Diag **diaglist;$/;"	m	class:SPPARKS_NS::Output	typeref:class:SPPARKS_NS::Output::Diag
+diamattribute	dump_image.h	/^  double *diamattribute;$/;"	m	class:SPPARKS_NS::DumpImage
+dimension	domain.h	/^  int dimension;                    \/\/ 1,2,3$/;"	m	class:SPPARKS_NS::Domain
+dimension	input.cpp	/^void Input::dimension()$/;"	f	class:Input
+distance	image.h	/^  inline double distance(double* a, double* b) {$/;"	f	class:SPPARKS_NS::Image
+dlo	dump_image.h	/^  int clo,chi,dlo,dhi;$/;"	m	class:SPPARKS_NS::DumpImage
+do_jump	app_vacancy.cpp	/^void AppVacancy::do_jump(int initsite, int jumpsite) {$/;"	f	class:AppVacancy
+do_jump_v1	app_vacancy.cpp	/^void AppVacancy::do_jump_v1(int it, int ii, int jj, int kk, int nn, double sign)$/;"	f	class:AppVacancy
+do_jump_v2	app_vacancy.cpp	/^void AppVacancy::do_jump_v2(int it, int ii, int jj, int kk, int nn1, int nn2) $/;"	f	class:AppVacancy
+domain	pointers.h	/^  Domain *&domain;$/;"	m	class:SPPARKS_NS::Pointers
+domain	spparks.h	/^  class Domain *domain;          \/\/ domain$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Domain
+done	error.cpp	/^void Error::done()$/;"	f	class:Error
+dot3	math_extra.h	/^double MathExtra::dot3(const double *v1, const double *v2)$/;"	f	class:MathExtra
+drange	dump_image.h	/^  int crange,drange;$/;"	m	class:SPPARKS_NS::DumpImage
+draw_axes	image.cpp	/^void Image::draw_axes(double (*axes)[3], double diameter)$/;"	f	class:Image
+draw_box	image.cpp	/^void Image::draw_box(double (*corners)[3], double diameter)$/;"	f	class:Image
+draw_cube	image.cpp	/^void Image::draw_cube(double *x, double *surfaceColor, double diameter)$/;"	f	class:Image
+draw_cylinder	image.cpp	/^void Image::draw_cylinder(double *x, double *y,$/;"	f	class:Image
+draw_pixel	image.cpp	/^void Image::draw_pixel(int ix, int iy, double depth, $/;"	f	class:Image
+draw_sphere	image.cpp	/^void Image::draw_sphere(double *x, double *surfaceColor, double diameter)$/;"	f	class:Image
+draw_triangle	image.cpp	/^void Image::draw_triangle(double *x, double *y, double *z, double *surfaceColor)$/;"	f	class:Image
+drhs	set.h	/^    double drhs;$/;"	m	struct:SPPARKS_NS::Set::Condition
+dt_kmc	app_lattice.h	/^  double dt_kmc;              \/\/ KMC time for one pass thru all sectors$/;"	m	class:SPPARKS_NS::AppLattice
+dt_rkmc	app_lattice.h	/^  double dt_rkmc;             \/\/ rKMC time for one pass thru all sectors$/;"	m	class:SPPARKS_NS::AppLattice
+dt_step	app_lattice.h	/^  double dt_step;             \/\/ KMC time for single global KMC step$/;"	m	class:SPPARKS_NS::AppLattice
+dt_sweep	app_lattice.h	/^  double dt_sweep;            \/\/ rKMC time for nglobal attemped events$/;"	m	class:SPPARKS_NS::AppLattice
+dump	input.cpp	/^void Input::dump()$/;"	f	class:Input
+dump_clusters	diag_cluster.cpp	/^void DiagCluster::dump_clusters(double time)$/;"	f	class:DiagCluster
+dump_modify	output.cpp	/^void Output::dump_modify(int narg, char **arg)$/;"	f	class:Output
+dump_one	output.cpp	/^void Output::dump_one(int narg, char **arg)$/;"	f	class:Output
+dump_style	diag_cluster.h	/^  int dump_style;$/;"	m	class:SPPARKS_NS::DiagCluster
+dumplist	output.h	/^  class Dump **dumplist;$/;"	m	class:SPPARKS_NS::Output	typeref:class:SPPARKS_NS::Output::Dump
+dumpptr	dump.h	/^  static Dump *dumpptr;         \/\/ holds a ptr to Dump currently being used$/;"	m	class:SPPARKS_NS::Dump
+dvalue	cluster.h	/^  double dvalue;      \/\/ floating point value of cluster e.g. 0.0$/;"	m	class:SPPARKS_NS::Cluster
+dvalue	create_sites.h	/^  double dvalue;$/;"	m	class:SPPARKS_NS::CreateSites
+dvalue	set.h	/^  double dvalue,dvaluelo,dvaluehi;$/;"	m	class:SPPARKS_NS::Set
+dvaluehi	set.h	/^  double dvalue,dvaluelo,dvaluehi;$/;"	m	class:SPPARKS_NS::Set
+dvaluelo	set.h	/^  double dvalue,dvaluelo,dvaluehi;$/;"	m	class:SPPARKS_NS::Set
+dwrap	dump_image.h	/^  int cwrap,dwrap;                 \/\/ 0\/1 for wrapping color\/diam to c\/drange$/;"	m	class:SPPARKS_NS::DumpImage
+eatom	app_vacancy.cpp	/^void AppVacancy::eatom(int it, int *it_nn1, int *it_nn2, int *it_nn3, double *ev, double *er, double *es)$/;"	f	class:AppVacancy
+echo	input.cpp	/^void Input::echo()$/;"	f	class:Input
+echo_log	input.h	/^  int echo_log;                \/\/ 0 = no, 1 = yes$/;"	m	class:SPPARKS_NS::Input
+echo_screen	input.h	/^  int echo_screen;             \/\/ 0 = no, 1 = yes$/;"	m	class:SPPARKS_NS::Input
+elapsed	timer.cpp	/^double Timer::elapsed(int which)$/;"	f	class:Timer
+element2color	image.cpp	/^double *Image::element2color(char *element)$/;"	f	class:Image
+element2diam	image.cpp	/^double Image::element2diam(char *element)$/;"	f	class:Image
+energy	diag_energy.h	/^  double energy;$/;"	m	class:SPPARKS_NS::DiagEnergy
+energy	pair_lj_cut.cpp	/^double PairLJCut::energy(int i, int numneigh, int *neighs,$/;"	f	class:PairLJCut
+epsilon	pair_lj_cut.h	/^  double **epsilon,**sigma;$/;"	m	class:SPPARKS_NS::PairLJCut
+equalstyle	variable.cpp	/^int Variable::equalstyle(int ivar)$/;"	f	class:Variable
+er	comm_lattice.h	/^    double ev, er, es;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+error	pointers.h	/^  Error *&error;$/;"	m	class:SPPARKS_NS::Pointers
+error	spparks.h	/^  class Error *error;            \/\/ error handling$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Error
+es	comm_lattice.h	/^    double ev, er, es;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+ev	comm_lattice.h	/^    double ev, er, es;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+eval_embed	app_vacancy.cpp	/^double AppVacancy::eval_embed(int it, double dens)$/;"	f	class:AppVacancy
+eval_sembed	app_vacancy.cpp	/^double AppVacancy::eval_sembed(int it, double sdens)$/;"	f	class:AppVacancy
+evaluate	variable.cpp	/^double Variable::evaluate(char *str)$/;"	f	class:Variable
+event	solve_group.cpp	/^int SolveGroup::event(double *pdt)$/;"	f	class:SolveGroup
+event	solve_linear.cpp	/^int SolveLinear::event(double *pdt)$/;"	f	class:SolveLinear
+event	solve_tree.cpp	/^int SolveTree::event(double *pdt)$/;"	f	class:SolveTree
+ex_time	solve_linear.h	/^  double ex_time;$/;"	m	class:SPPARKS_NS::SolveLinear
+execute_command	input.cpp	/^int Input::execute_command()$/;"	f	class:Input
+extent_xhi	region.h	/^  double extent_xlo,extent_xhi;     \/\/ bounding box on region$/;"	m	class:SPPARKS_NS::Region
+extent_xlo	region.h	/^  double extent_xlo,extent_xhi;     \/\/ bounding box on region$/;"	m	class:SPPARKS_NS::Region
+extent_yhi	region.h	/^  double extent_ylo,extent_yhi;$/;"	m	class:SPPARKS_NS::Region
+extent_ylo	region.h	/^  double extent_ylo,extent_yhi;$/;"	m	class:SPPARKS_NS::Region
+extent_zhi	region.h	/^  double extent_zlo,extent_zhi;$/;"	m	class:SPPARKS_NS::Region
+extent_zlo	region.h	/^  double extent_zlo,extent_zhi;$/;"	m	class:SPPARKS_NS::Region
+extract	app.cpp	/^void *App::extract(char *name)$/;"	f	class:App
+extract_app	app.h	/^  virtual void *extract_app(char *) {return NULL;}$/;"	f	class:SPPARKS_NS::App
+extract_app	app_lattice.h	/^  virtual void *extract_app(char *) {return NULL;}$/;"	f	class:SPPARKS_NS::AppLattice
+exyz_to_q	math_extra.cpp	/^void exyz_to_q(double *ex, double *ey, double *ez, double *q)$/;"	f	namespace:MathExtra
+fail	memory.cpp	/^void Memory::fail(const char *name)$/;"	f	class:Memory
+fields	dump_text.h	/^  int *fields;               \/\/ descriptor for each field$/;"	m	class:SPPARKS_NS::DumpText
+file	input.cpp	/^void Input::file()$/;"	f	class:Input
+file	input.cpp	/^void Input::file(const char *filename)$/;"	f	class:Input
+filename	dump.h	/^  char *filename;            \/\/ user-specified file$/;"	m	class:SPPARKS_NS::Dump
+fileproc	dump.h	/^  int fileproc;              \/\/ ID of proc in my cluster who writes to file$/;"	m	class:SPPARKS_NS::Dump
+filetype	dump_image.h	/^  int filetype;$/;"	m	class:SPPARKS_NS::DumpImage
+filewriter	dump.h	/^  int filewriter;            \/\/ 1 if this proc writes a file, else 0$/;"	m	class:SPPARKS_NS::Dump
+fillLightColor	image.h	/^  double fillLightColor[3];$/;"	m	class:SPPARKS_NS::Image
+fillLightDir	image.h	/^  double keyLightDir[3],fillLightDir[3],backLightDir[3];$/;"	m	class:SPPARKS_NS::Image
+fillLightPhi	image.h	/^  double fillLightPhi;$/;"	m	class:SPPARKS_NS::Image
+fillLightTheta	image.h	/^  double fillLightTheta;$/;"	m	class:SPPARKS_NS::Image
+find	solve_tree.cpp	/^int SolveTree::find(double value)$/;"	f	class:SolveTree
+find	variable.cpp	/^int Variable::find(char *name)$/;"	f	class:Variable
+find_border	app_vacancy.cpp	/^void AppVacancy::find_border() {$/;"	f	class:AppVacancy
+find_matching_paren	variable.cpp	/^int Variable::find_matching_paren(char *str, int i,char *&contents)$/;"	f	class:Variable
+find_region	domain.cpp	/^int Domain::find_region(char *name)$/;"	f	class:Domain
+findcu	diag_array.cpp	/^void DiagArray::findcu()$/;"	f	class:DiagArray
+findcu	diag_cluster.cpp	/^void DiagCluster::findcu()$/;"	f	class:DiagCluster
+findcu	diag_energy.cpp	/^void DiagEnergy::findcu()$/;"	f	class:DiagEnergy
+findcu	diag_propensity.cpp	/^void DiagPropensity::findcu()$/;"	f	class:DiagPropensity
+first_run	app.h	/^  int first_run;$/;"	m	class:SPPARKS_NS::App
+first_run	diag_cluster.h	/^  int first_run;$/;"	m	class:SPPARKS_NS::DiagCluster
+firstflag	dump.h	/^  int firstflag;             \/\/ 1 if no dump yet written, 0 if not first$/;"	m	class:SPPARKS_NS::Dump
+flush_flag	dump.h	/^  int flush_flag;            \/\/ 0 if no flush, 1 if flush every dump$/;"	m	class:SPPARKS_NS::Dump
+fp	diag_cluster.h	/^  FILE *fp, *fpdump;$/;"	m	class:SPPARKS_NS::DiagCluster
+fp	dump.h	/^  FILE *fp;                  \/\/ file to write dump to$/;"	m	class:SPPARKS_NS::Dump
+fp	read_sites.h	/^  FILE *fp;$/;"	m	class:SPPARKS_NS::ReadSites
+fpdump	diag_cluster.h	/^  FILE *fp, *fpdump;$/;"	m	class:SPPARKS_NS::DiagCluster
+fraction	set.h	/^  double fraction;$/;"	m	class:SPPARKS_NS::Set
+free_clustlist	diag_cluster.cpp	/^void DiagCluster::free_clustlist()$/;"	f	class:DiagCluster
+free_set	app_lattice.cpp	/^Solve *AppLattice::free_set(int iset)$/;"	f	class:AppLattice
+free_swap	comm_lattice.cpp	/^void CommLattice::free_swap(Swap *swap)$/;"	f	class:CommLattice
+g2p	groups.h	/^  int **g2p;            \/\/ list of propensity indices in each group$/;"	m	class:SPPARKS_NS::Groups
+gcount	groups.h	/^  int *gcount;          \/\/ # of propensities in each group$/;"	m	class:SPPARKS_NS::Groups
+generate_clusters	diag_cluster.cpp	/^void DiagCluster::generate_clusters()$/;"	f	class:DiagCluster
+getLatconst	lattice.cpp	/^double Lattice::getLatconst(){$/;"	f	class:Lattice
+get_cu_alone	app_lattice.h	/^  virtual int get_cu_alone(int){}$/;"	f	class:SPPARKS_NS::AppLattice
+get_cu_alone	app_vacancy.cpp	/^int AppVacancy::get_cu_alone(int initsite) {$/;"	f	class:AppVacancy
+get_e	app_lattice.h	/^  virtual void get_e(int, double *, double *, double *) {}$/;"	f	class:SPPARKS_NS::AppLattice
+get_e	app_vacancy.cpp	/^void AppVacancy::get_e(int i, double *ev, double *er, double *es)$/;"	f	class:AppVacancy
+get_it_e	app_vacancy.cpp	/^void AppVacancy::get_it_e(int x, int y, int z, int *it, double *ev, double *er, double *es)$/;"	f	class:AppVacancy
+get_neighbor	app_lattice.h	/^  virtual void get_neighbor(int, int*){}$/;"	f	class:SPPARKS_NS::AppLattice
+get_neighbor	app_vacancy.cpp	/^void AppVacancy::get_neighbor(int initsite, int* neighbors) {$/;"	f	class:AppVacancy
+get_num_active	solve.cpp	/^int Solve::get_num_active()$/;"	f	class:Solve
+get_total_propensity	solve.cpp	/^double Solve::get_total_propensity()$/;"	f	class:Solve
+ghibound	groups.h	/^  double *ghibound;     \/\/ upper bound of propensity for each group$/;"	m	class:SPPARKS_NS::Groups
+global_id	cluster.h	/^  int global_id;      \/\/ cluster id$/;"	m	class:SPPARKS_NS::Cluster
+gmaxsize	groups.h	/^  int *gmaxsize;        \/\/ max # of propensities each group is allocated for$/;"	m	class:SPPARKS_NS::Groups
+gpsum	groups.h	/^  double *gpsum;        \/\/ sum of propensities for each group$/;"	m	class:SPPARKS_NS::Groups
+groups	solve_group.h	/^  class Groups *groups;$/;"	m	class:SPPARKS_NS::SolveGroup	typeref:class:SPPARKS_NS::SolveGroup::Groups
+grow	app_lattice.cpp	/^void AppLattice::grow(int n)$/;"	f	class:AppLattice
+grow	memory.h	/^    TYPE ****grow(TYPE ****&array, int n1, int n2, int n3, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+grow	memory.h	/^    TYPE ***grow(TYPE ***&array, int n1, int n2, const char *name)$/;"	f	class:SPPARKS_NS::Memory
+grow	memory.h	/^    TYPE ***grow(TYPE ***&array, int n1, int n2, int n3, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+grow	memory.h	/^    TYPE **grow(TYPE **&array, int n, const char *name) {fail(name);}$/;"	f	class:SPPARKS_NS::Memory
+grow	memory.h	/^    TYPE **grow(TYPE **&array, int n1, int n2, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+grow	memory.h	/^    TYPE *grow(TYPE *&array, int n, const char *name) $/;"	f	class:SPPARKS_NS::Memory
+grow_app	app_vacancy.cpp	/^void AppVacancy::grow_app()$/;"	f	class:AppVacancy
+grow_group	groups.cpp	/^void Groups::grow_group(int g)$/;"	f	class:Groups
+header	read_sites.cpp	/^void ReadSites::header()$/;"	f	class:ReadSites
+header_binary	dump_text.cpp	/^void DumpText::header_binary(bigint ndump, double time)$/;"	f	class:DumpText
+header_choice	dump_text.h	/^  FnPtrHeader header_choice;           \/\/ ptr to write header functions$/;"	m	class:SPPARKS_NS::DumpText
+header_text	dump_text.cpp	/^void DumpText::header_text(bigint ndump, double time)$/;"	f	class:DumpText
+height	image.h	/^  int width,height;             \/\/ size of image$/;"	m	class:SPPARKS_NS::Image
+hi	groups.h	/^  double hi,lo;         \/\/ inclusive propensity bounds$/;"	m	class:SPPARKS_NS::Groups
+hi	image.h	/^    int single,lo,hi;              \/\/ NUMERIC or MINVALUE or MAXVALUE$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+hi	solve_group.h	/^  double lo,hi;$/;"	m	class:SPPARKS_NS::SolveGroup
+hicurrent	image.h	/^  double locurrent,hicurrent;      \/\/ current bounds for this snapshot$/;"	m	class:SPPARKS_NS::Image
+himax	solve_group.h	/^  double lomax,himax;$/;"	m	class:SPPARKS_NS::SolveGroup
+hvalue	image.h	/^    double svalue,lvalue,hvalue;   \/\/ actual value$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+i97	random_mars.h	/^  int i97,j97;$/;"	m	class:SPPARKS_NS::RanMars
+iarg_child	diag.h	/^  int iarg_child;$/;"	m	class:SPPARKS_NS::Diag
+iarray	app.h	/^  int **iarray;                \/\/ one or more ints per site$/;"	m	class:SPPARKS_NS::App
+iarray	comm_lattice.h	/^  int **iarray;$/;"	m	class:SPPARKS_NS::CommLattice
+id	app.h	/^  tagint *id;                  \/\/ global ID of site$/;"	m	class:SPPARKS_NS::App
+id	app_lattice.h	/^    int id,proc,index;$/;"	m	struct:SPPARKS_NS::AppLattice::Site
+id	create_sites.h	/^    int id,proc,index;$/;"	m	struct:SPPARKS_NS::CreateSites::Site
+id	dump.h	/^  char *id;                  \/\/ user-defined name of Dump$/;"	m	class:SPPARKS_NS::Dump
+id	region.h	/^  char *id,*style;$/;"	m	class:SPPARKS_NS::Region
+id	set.cpp	/^    int id;$/;"	m	class:Point	file:
+idcompare	dump.cpp	/^int Dump::idcompare(const void *pi, const void *pj)$/;"	f	class:Dump
+idlo	dump.h	/^  tagint idlo;               \/\/ lowest ID I own when reordering$/;"	m	class:SPPARKS_NS::Dump
+idneigh	create_sites.h	/^  tagint **idneigh;            \/\/ global indices of neighbors of each site$/;"	m	class:SPPARKS_NS::CreateSites
+idregion	dump_text.h	/^  char *idregion;            \/\/ region ID$/;"	m	class:SPPARKS_NS::DumpText
+ids	dump.h	/^  tagint *ids;               \/\/ list of site IDs, if sorting on IDs$/;"	m	class:SPPARKS_NS::Dump
+idsite	diag_cluster.h	/^  tagint *idsite;              \/\/ global site ids$/;"	m	class:SPPARKS_NS::DiagCluster
+idsort	dump.h	/^  tagint *idsort;$/;"	m	class:SPPARKS_NS::Dump
+idump	diag_cluster.h	/^  int idump;$/;"	m	class:SPPARKS_NS::DiagCluster
+idump	dump.h	/^  int idump;                 \/\/ counter for output snapshots$/;"	m	class:SPPARKS_NS::Dump
+image	dump_image.h	/^  class Image *image;              \/\/ class that renders each image$/;"	m	class:SPPARKS_NS::DumpImage	typeref:class:SPPARKS_NS::DumpImage::Image
+imageBuffer	image.h	/^  char *imageBuffer,*rgbcopy,*writeBuffer;$/;"	m	class:SPPARKS_NS::Image
+inc_px	app_vacancy.cpp	/^void AppVacancy::inc_px(int i, int di, int *ii)$/;"	f	class:AppVacancy
+inc_py	app_vacancy.cpp	/^void AppVacancy::inc_py(int i, int di, int *ii)$/;"	f	class:AppVacancy
+inc_pz	app_vacancy.cpp	/^void AppVacancy::inc_pz(int i, int di, int *ii)$/;"	f	class:AppVacancy
+index	app_lattice.h	/^    int id,proc,index;$/;"	m	struct:SPPARKS_NS::AppLattice::Site
+index	create_sites.h	/^    int id,proc,index;$/;"	m	struct:SPPARKS_NS::CreateSites::Site
+index	diag_array.h	/^  int *index;$/;"	m	class:SPPARKS_NS::DiagArray
+index	dump.h	/^  int *index,*proclist;$/;"	m	class:SPPARKS_NS::Dump
+index	set.h	/^    int lhs,type,index,stride;$/;"	m	struct:SPPARKS_NS::Set::Condition
+index	variable.h	/^  int *index;              \/\/ next available value for each variable$/;"	m	class:SPPARKS_NS::Variable
+index_double	diag_array.h	/^  bool *index_double;       \/\/ false for int, true for double$/;"	m	class:SPPARKS_NS::DiagArray
+inertia_ellipsoid	math_extra.cpp	/^void inertia_ellipsoid(double *radii, double *quat, double mass,$/;"	f	namespace:MathExtra
+inertia_line	math_extra.cpp	/^void inertia_line(double length, double theta, double mass, double *inertia)$/;"	f	namespace:MathExtra
+inertia_triangle	math_extra.cpp	/^void inertia_triangle(double *idiag, double *quat, double mass,$/;"	f	namespace:MathExtra
+inertia_triangle	math_extra.cpp	/^void inertia_triangle(double *v0, double *v1, double *v2,$/;"	f	namespace:MathExtra
+infile	pointers.h	/^  FILE *&infile;$/;"	m	class:SPPARKS_NS::Pointers
+infile	spparks.h	/^  FILE *infile;            \/\/ infile for my world$/;"	m	class:SPPARKS_NS::SPPARKS
+infiles	input.h	/^  FILE **infiles;              \/\/ list of open input files$/;"	m	class:SPPARKS_NS::Input
+init	app_lattice.cpp	/^void AppLattice::init()$/;"	f	class:AppLattice
+init	comm_lattice.cpp	/^void CommLattice::init(int nsector_request, int delpropensity, int delevent,$/;"	f	class:CommLattice
+init	diag_array.cpp	/^void DiagArray::init()$/;"	f	class:DiagArray
+init	diag_cluster.cpp	/^void DiagCluster::init()$/;"	f	class:DiagCluster
+init	diag_energy.cpp	/^void DiagEnergy::init()$/;"	f	class:DiagEnergy
+init	diag_propensity.cpp	/^void DiagPropensity::init()$/;"	f	class:DiagPropensity
+init	dump.cpp	/^void Dump::init()$/;"	f	class:Dump
+init	output.cpp	/^void Output::init(double time)$/;"	f	class:Output
+init	pair.cpp	/^void Pair::init()$/;"	f	class:Pair
+init	potential.cpp	/^void Potential::init()$/;"	f	class:Potential
+init	random_mars.cpp	/^void RanMars::init(int seed)$/;"	f	class:RanMars
+init	solve_group.cpp	/^void SolveGroup::init(int n, double *propensity)$/;"	f	class:SolveGroup
+init	solve_linear.cpp	/^void SolveLinear::init(int n, double *propensity)$/;"	f	class:SolveLinear
+init	solve_tree.cpp	/^void SolveTree::init(int n, double *propensity)$/;"	f	class:SolveTree
+init	timer.cpp	/^void Timer::init()$/;"	f	class:Timer
+init_app	app_lattice.h	/^  virtual void init_app() {}$/;"	f	class:SPPARKS_NS::AppLattice
+init_app	app_vacancy.cpp	/^void AppVacancy::init_app()$/;"	f	class:AppVacancy
+init_one	pair.h	/^  virtual double init_one(int, int) {return 0.0;}$/;"	f	class:SPPARKS_NS::Pair
+init_one	pair_lj_cut.cpp	/^double PairLJCut::init_one(int i, int j)$/;"	f	class:PairLJCut
+init_potential_pair_file	app_vacancy.cpp	/^void AppVacancy:: init_potential_pair_file(char *arg)$/;"	f	class:AppVacancy
+init_style	dump_image.cpp	/^void DumpImage::init_style()$/;"	f	class:DumpImage
+init_style	dump_text.cpp	/^void DumpText::init_style()$/;"	f	class:DumpText
+init_style	pair.h	/^  virtual void init_style() {}$/;"	f	class:SPPARKS_NS::Pair
+initflag	random_mars.h	/^  int initflag;$/;"	m	class:SPPARKS_NS::RanMars
+input	app_lattice.cpp	/^void AppLattice::input(char *command, int narg, char **arg)$/;"	f	class:AppLattice
+input	pointers.h	/^  Input *&input;$/;"	m	class:SPPARKS_NS::Pointers
+input	spparks.h	/^  class Input *input;            \/\/ input script processing$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Input
+input_app	app_lattice.cpp	/^void AppLattice::input_app(char *command, int narg, char **arg)$/;"	f	class:AppLattice
+input_app	app_vacancy.cpp	/^void AppVacancy::input_app(char *command, int narg, char **arg)$/;"	f	class:AppVacancy
+interior	region.h	/^  int interior;                     \/\/ 1 for interior, 0 for exterior$/;"	m	class:SPPARKS_NS::Region
+interpol	app_vacancy.cpp	/^double AppVacancy::interpol(int npt, double RRRR[], double PAIR[], double r )$/;"	f	class:AppVacancy
+interpolate	image.h	/^  double interpolate[3];$/;"	m	class:SPPARKS_NS::Image
+invbinsize	groups.h	/^  double invbinsize;    \/\/ inverse width of propensity bin when user-specified$/;"	m	class:SPPARKS_NS::Groups
+invert3	math_extra.h	/^void MathExtra::invert3(const double m[3][3], double ans[3][3])$/;"	f	class:MathExtra
+invquatvec	math_extra.h	/^void MathExtra::invquatvec(double *a, double *b, double *c)$/;"	f	class:MathExtra
+ioptional	dump_text.h	/^  int ioptional;             \/\/ where optional trailing args start$/;"	m	class:SPPARKS_NS::DumpText
+irandom	random_park.cpp	/^int RandomPark::irandom(int n)$/;"	f	class:RandomPark
+iregion	dump_text.h	/^  int iregion;               \/\/ -1 if no region, else which region$/;"	m	class:SPPARKS_NS::DumpText
+iregion	set.h	/^  int loopflag,regionflag,iregion;$/;"	m	class:SPPARKS_NS::Set
+irhs	set.h	/^    int irhs;$/;"	m	struct:SPPARKS_NS::Set::Condition
+irregular	dump.h	/^  class Irregular *irregular;$/;"	m	class:SPPARKS_NS::Dump	typeref:class:SPPARKS_NS::Dump::Irregular
+is_constant	variable.cpp	/^int Variable::is_constant(char *word)$/;"	f	class:Variable
+is_in_set	app_vacancy.cpp	/^int AppVacancy::is_in_set(int i) {$/;"	f	class:AppVacancy
+it	comm_lattice.h	/^    int x,y,z,it;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+iterate	app_lattice.cpp	/^void AppLattice::iterate()$/;"	f	class:AppLattice
+iterate_kmc_global	app_lattice.cpp	/^void AppLattice::iterate_kmc_global(double stoptime)$/;"	f	class:AppLattice
+iterate_kmc_sector	app_lattice.cpp	/^void AppLattice::iterate_kmc_sector(double stoptime)$/;"	f	class:AppLattice
+ivalue	cluster.h	/^  int ivalue;         \/\/ integer value of cluster e.g. spin $/;"	m	class:SPPARKS_NS::Cluster
+ivalue	create_sites.h	/^  int style,nregion,valueflag,valueindex,ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+ivalue	set.h	/^  int ivalue,ivaluelo,ivaluehi;$/;"	m	class:SPPARKS_NS::Set
+ivaluehi	set.h	/^  int ivalue,ivaluelo,ivaluehi;$/;"	m	class:SPPARKS_NS::Set
+ivaluelo	set.h	/^  int ivalue,ivaluelo,ivaluehi;$/;"	m	class:SPPARKS_NS::Set
+iworld	universe.h	/^  int iworld;             \/\/ which world I am in$/;"	m	class:SPPARKS_NS::Universe
+j97	random_mars.h	/^  int i97,j97;$/;"	m	class:SPPARKS_NS::RanMars
+jacobi	math_extra.cpp	/^int jacobi(double matrix[3][3], double *evalues, double evectors[3][3])$/;"	f	namespace:MathExtra
+jump_skip	input.h	/^  int jump_skip;               \/\/ 1 if skipping next jump, 0 otherwise$/;"	m	class:SPPARKS_NS::Input
+kb	app_vacancy.cpp	29;"	d	file:
+keyHalfDir	image.h	/^  double keyHalfDir[3];$/;"	m	class:SPPARKS_NS::Image
+keyLightColor	image.h	/^  double keyLightColor[3];$/;"	m	class:SPPARKS_NS::Image
+keyLightDir	image.h	/^  double keyLightDir[3],fillLightDir[3],backLightDir[3];$/;"	m	class:SPPARKS_NS::Image
+keyLightPhi	image.h	/^  double keyLightPhi;$/;"	m	class:SPPARKS_NS::Image
+keyLightTheta	image.h	/^  double keyLightTheta;$/;"	m	class:SPPARKS_NS::Image
+keyword	read_sites.h	/^  char *line,*keyword,*buffer;$/;"	m	class:SPPARKS_NS::ReadSites
+keyword	variable.cpp	/^int Variable::keyword(char *word, double &value)$/;"	f	class:Variable
+kk_c	set.cpp	/^int kk_c = 0;$/;"	v
+kk_icount	app_lattice.cpp	/^int kk_icount=0;$/;"	v
+kkc	diag_energy.cpp	/^int kkc=0;$/;"	v
+kkit_00	app_vacancy.cpp	/^int kkit_00,kkit_01,kkit_02;$/;"	v
+kkit_01	app_vacancy.cpp	/^int kkit_00,kkit_01,kkit_02;$/;"	v
+kkit_02	app_vacancy.cpp	/^int kkit_00,kkit_01,kkit_02;$/;"	v
+label_active	input.h	/^  int label_active;            \/\/ 0 = no label, 1 = looking for label$/;"	m	class:SPPARKS_NS::Input
+labelstr	input.h	/^  char *labelstr;              \/\/ label string being looked for$/;"	m	class:SPPARKS_NS::Input
+latconst	lattice.h	/^  double latconst;                     \/\/ lattice constant$/;"	m	class:SPPARKS_NS::Lattice
+latstyle	create_sites.h	/^  int latstyle,nbasis;$/;"	m	class:SPPARKS_NS::CreateSites
+lattice	domain.h	/^  class Lattice *lattice;                  \/\/ user-defined lattice$/;"	m	class:SPPARKS_NS::Domain	typeref:class:SPPARKS_NS::Domain::Lattice
+lattice	input.cpp	/^void Input::lattice()$/;"	f	class:Input
+latticeflag	create_sites.h	/^  int latticeflag;$/;"	m	class:SPPARKS_NS::CreateSites
+latticeflag	diag_array.h	/^  int latticeflag;$/;"	m	class:SPPARKS_NS::DiagArray
+latticeflag	diag_energy.h	/^  int latticeflag;$/;"	m	class:SPPARKS_NS::DiagEnergy
+latticeflag	dump.h	/^  int latticeflag;           \/\/ 1 for on-lattice, 0 for off-lattice app$/;"	m	class:SPPARKS_NS::Dump
+latticeflag	read_sites.h	/^  int latticeflag;$/;"	m	class:SPPARKS_NS::ReadSites
+latticeflag	set.h	/^  int latticeflag;$/;"	m	class:SPPARKS_NS::Set
+len3	math_extra.h	/^double MathExtra::len3(const double *v)$/;"	f	class:MathExtra
+lensq3	math_extra.h	/^double MathExtra::lensq3(const double *v)$/;"	f	class:MathExtra
+lhs	set.h	/^    int lhs,type,index,stride;$/;"	m	struct:SPPARKS_NS::Set::Condition
+line	input.h	/^  char *line,*copy,*work;      \/\/ input line & copy of it$/;"	m	class:SPPARKS_NS::Input
+line	read_sites.h	/^  char *line,*keyword,*buffer;$/;"	m	class:SPPARKS_NS::ReadSites
+linear_select_group	groups.cpp	/^int Groups::linear_select_group()$/;"	f	class:Groups
+lj1	pair_lj_cut.h	/^  double **lj1,**lj2,**lj3,**lj4,**offset;$/;"	m	class:SPPARKS_NS::PairLJCut
+lj2	pair_lj_cut.h	/^  double **lj1,**lj2,**lj3,**lj4,**offset;$/;"	m	class:SPPARKS_NS::PairLJCut
+lj3	pair_lj_cut.h	/^  double **lj1,**lj2,**lj3,**lj4,**offset;$/;"	m	class:SPPARKS_NS::PairLJCut
+lj4	pair_lj_cut.h	/^  double **lj1,**lj2,**lj3,**lj4,**offset;$/;"	m	class:SPPARKS_NS::PairLJCut
+lo	groups.h	/^  double hi,lo;         \/\/ inclusive propensity bounds$/;"	m	class:SPPARKS_NS::Groups
+lo	image.h	/^    int single,lo,hi;              \/\/ NUMERIC or MINVALUE or MAXVALUE$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+lo	solve_group.h	/^  double lo,hi;$/;"	m	class:SPPARKS_NS::SolveGroup
+locurrent	image.h	/^  double locurrent,hicurrent;      \/\/ current bounds for this snapshot$/;"	m	class:SPPARKS_NS::Image
+log	input.cpp	/^void Input::log()$/;"	f	class:Input
+logfile	pointers.h	/^  FILE *&logfile;$/;"	m	class:SPPARKS_NS::Pointers
+logfile	spparks.h	/^  FILE *logfile;           \/\/ logfile for my world$/;"	m	class:SPPARKS_NS::SPPARKS
+logfreq	diag.h	/^  int logfreq,nrepeat;$/;"	m	class:SPPARKS_NS::Diag
+logfreq	dump.h	/^  int logfreq,nrepeat;$/;"	m	class:SPPARKS_NS::Dump
+lomax	solve_group.h	/^  double lomax,himax;$/;"	m	class:SPPARKS_NS::SolveGroup
+loopflag	set.h	/^  int loopflag,regionflag,iregion;$/;"	m	class:SPPARKS_NS::Set
+lvalue	image.h	/^    double svalue,lvalue,hvalue;   \/\/ actual value$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+match	region_block.cpp	/^int RegBlock::match(double x, double y, double z)$/;"	f	class:RegBlock
+math_function	variable.cpp	/^int Variable::math_function(char *word, char *contents,$/;"	f	class:Variable
+matvec	math_extra.h	/^void MathExtra::matvec(const double *ex, const double *ey, const double *ez,$/;"	f	class:MathExtra
+matvec	math_extra.h	/^void MathExtra::matvec(const double m[3][3], const double *v, double *ans) $/;"	f	class:MathExtra
+max_dump	output.h	/^  int max_dump;$/;"	m	class:SPPARKS_NS::Output
+max_site_ID	app.cpp	/^tagint App::max_site_ID()$/;"	f	class:App
+maxarg	input.h	/^  int maxarg;                  \/\/ max # of args in arg$/;"	m	class:SPPARKS_NS::Input
+maxarg	read_sites.h	/^  int narg,maxarg,compressed;$/;"	m	class:SPPARKS_NS::ReadSites
+maxbuf	dump.h	/^  int maxbuf;                \/\/ size of buf$/;"	m	class:SPPARKS_NS::Dump
+maxfile	input.h	/^  int nfile,maxfile;           \/\/ current # and max # of open input files$/;"	m	class:SPPARKS_NS::Input
+maxids	dump.h	/^  int maxids;                \/\/ size of ids$/;"	m	class:SPPARKS_NS::Dump
+maxlocal	dump_text.h	/^  int maxlocal;              \/\/ size of atom selection and variable arrays$/;"	m	class:SPPARKS_NS::DumpText
+maxneigh	app_lattice.h	/^  int maxneigh;                \/\/ max neighbors of any site in entire system$/;"	m	class:SPPARKS_NS::AppLattice
+maxneigh	create_sites.h	/^  int maxneigh;$/;"	m	class:SPPARKS_NS::CreateSites
+maxneigh	read_sites.h	/^  int maxneigh;$/;"	m	class:SPPARKS_NS::ReadSites
+maxproc	dump.h	/^  int maxproc;               \/\/ size of proclist$/;"	m	class:SPPARKS_NS::Dump
+maxregion	domain.h	/^  int maxregion;                           \/\/ max # list can hold$/;"	m	class:SPPARKS_NS::Domain
+maxsort	dump.h	/^  int maxsort;               \/\/ size of bufsort, idsort, index$/;"	m	class:SPPARKS_NS::Dump
+maxvar	variable.h	/^  int maxvar;              \/\/ max # of variables arrays can hold$/;"	m	class:SPPARKS_NS::Variable
+mbinsize	image.h	/^  double mbinsize,mbinsizeinv;     \/\/ bin size for sequential color map$/;"	m	class:SPPARKS_NS::Image
+mbinsizeinv	image.h	/^  double mbinsize,mbinsizeinv;     \/\/ bin size for sequential color map$/;"	m	class:SPPARKS_NS::Image
+me	app_lattice.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::AppLattice
+me	comm_lattice.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::CommLattice
+me	diag.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::Diag
+me	domain.h	/^  int me,nprocs;                    \/\/ proc info$/;"	m	class:SPPARKS_NS::Domain
+me	dump.h	/^  int me,nprocs;             \/\/ proc info$/;"	m	class:SPPARKS_NS::Dump
+me	image.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::Image
+me	input.h	/^  int me;                      \/\/ proc ID$/;"	m	class:SPPARKS_NS::Input
+me	output.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::Output
+me	read_sites.h	/^  int me;$/;"	m	class:SPPARKS_NS::ReadSites
+me	universe.h	/^  int me,nprocs;          \/\/ my place in universe$/;"	m	class:SPPARKS_NS::Universe
+me	variable.h	/^  int me;$/;"	m	class:SPPARKS_NS::Variable
+memory	pointers.h	/^  Memory *&memory;$/;"	m	class:SPPARKS_NS::Pointers
+memory	spparks.h	/^  class Memory *memory;          \/\/ memory allocation functions$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Memory
+mentry	image.h	/^  MapEntry *mentry;$/;"	m	class:SPPARKS_NS::Image
+merge	image.cpp	/^void Image::merge()$/;"	f	class:Image
+message	error.cpp	/^void Error::message(const char *file, int line, const char *str, int logflag)$/;"	f	class:Error
+mhi	image.h	/^  int mlo,mhi;                     \/\/ bounds = NUMERIC or MINVALUE or MAXVALUE$/;"	m	class:SPPARKS_NS::Image
+mhivalue	image.h	/^  double mlovalue,mhivalue;        \/\/ user bounds if NUMERIC$/;"	m	class:SPPARKS_NS::Image
+mix_distance	pair.cpp	/^double Pair::mix_distance(double sig1, double sig2)$/;"	f	class:Pair
+mix_energy	pair.cpp	/^double Pair::mix_energy(double eps1, double eps2, double sig1, double sig2)$/;"	f	class:Pair
+mix_flag	pair.h	/^  int mix_flag;$/;"	m	class:SPPARKS_NS::Pair
+mldivide3	math_extra.cpp	/^int mldivide3(const double m[3][3], const double *v, double *ans)$/;"	f	namespace:MathExtra
+mlo	image.h	/^  int mlo,mhi;                     \/\/ bounds = NUMERIC or MINVALUE or MAXVALUE$/;"	m	class:SPPARKS_NS::Image
+mlovalue	image.h	/^  double mlovalue,mhivalue;        \/\/ user bounds if NUMERIC$/;"	m	class:SPPARKS_NS::Image
+modify_param	dump.h	/^  virtual int modify_param(int, char **) {return 0;}$/;"	f	class:SPPARKS_NS::Dump
+modify_param	dump_image.cpp	/^int DumpImage::modify_param(int narg, char **arg)$/;"	f	class:DumpImage
+modify_param	dump_text.cpp	/^int DumpText::modify_param(int narg, char **arg)$/;"	f	class:DumpText
+modify_params	dump.cpp	/^void Dump::modify_params(int narg, char **arg)$/;"	f	class:Dump
+mq_to_omega	math_extra.cpp	/^void mq_to_omega(double *m, double *q, double *moments, double *w)$/;"	f	namespace:MathExtra
+mrange	image.h	/^  int mstyle,mrange;               \/\/ 2-letter style\/range of color map$/;"	m	class:SPPARKS_NS::Image
+mstyle	image.h	/^  int mstyle,mrange;               \/\/ 2-letter style\/range of color map$/;"	m	class:SPPARKS_NS::Image
+multifile	dump.h	/^  int multifile;             \/\/ 0 = one big file, 1 = one file per timestep$/;"	m	class:SPPARKS_NS::Dump
+multiname	dump.h	/^  char *multiname;           \/\/ filename with % converted to cluster ID$/;"	m	class:SPPARKS_NS::Dump
+multiply_shape_shape	math_extra.h	/^void MathExtra::multiply_shape_shape(const double *one, const double *two,$/;"	f	class:MathExtra
+multiproc	dump.h	/^  int multiproc;             \/\/ 0 = proc 0 writes for all, 1 = one file\/proc$/;"	m	class:SPPARKS_NS::Dump
+myloc	domain.h	/^  int myloc[3];                     \/\/ which proc I am in each dim$/;"	m	class:SPPARKS_NS::Domain
+naccept	app_lattice.h	/^  bigint naccept,nattempt;    \/\/ number of accepted and attempted events$/;"	m	class:SPPARKS_NS::AppLattice
+names	variable.h	/^  char **names;            \/\/ name of each variable$/;"	m	class:SPPARKS_NS::Variable
+narg	input.h	/^  int narg;                    \/\/ # of command args$/;"	m	class:SPPARKS_NS::Input
+narg	read_sites.h	/^  int narg,maxarg,compressed;$/;"	m	class:SPPARKS_NS::ReadSites
+nattempt	app_lattice.h	/^  bigint naccept,nattempt;    \/\/ number of accepted and attempted events$/;"	m	class:SPPARKS_NS::AppLattice
+nbasis	create_sites.h	/^  int latstyle,nbasis;$/;"	m	class:SPPARKS_NS::CreateSites
+nbasis	lattice.h	/^  int nbasis;                          \/\/ # of basis atoms in unit cell$/;"	m	class:SPPARKS_NS::Lattice
+nborder	app_lattice.h	/^    int nborder;               \/\/ # of sites with non-set site as neighbor$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+nchoose	dump_text.h	/^  int nchoose;               \/\/ # of selected atoms$/;"	m	class:SPPARKS_NS::DumpText
+ncluster	diag_cluster.h	/^  int ncluster,ncluster_reduced;$/;"	m	class:SPPARKS_NS::DiagCluster
+ncluster_reduced	diag_cluster.h	/^  int ncluster,ncluster_reduced;$/;"	m	class:SPPARKS_NS::DiagCluster
+nclusterprocs	dump.h	/^  int nclusterprocs;         \/\/ # of procs in my cluster that write to one file$/;"	m	class:SPPARKS_NS::Dump
+ncolors	app_lattice.h	/^  int ncolors;                 \/\/ # of colors, depends on lattice$/;"	m	class:SPPARKS_NS::AppLattice
+ncolors	image.h	/^  int ncolors;$/;"	m	class:SPPARKS_NS::Image
+ncolors	lattice.cpp	/^int Lattice::ncolors(int delcolor)$/;"	f	class:Lattice
+ncondition	set.h	/^  int ncondition;$/;"	m	class:SPPARKS_NS::Set
+ndiag	output.h	/^  int ndiag;                         \/\/ list of diagnostics$/;"	m	class:SPPARKS_NS::Output
+ndouble	app.h	/^  int ninteger,ndouble;        \/\/ # of ints and doubles per site$/;"	m	class:SPPARKS_NS::App
+ndouble	comm_lattice.h	/^  int ninteger,ndouble;$/;"	m	class:SPPARKS_NS::CommLattice
+ndump	output.h	/^  int ndump;                         \/\/ list of dumps$/;"	m	class:SPPARKS_NS::Output
+needer	comm_lattice.h	/^  std::map<int, int*> needer;$/;"	m	class:SPPARKS_NS::CommLattice
+negate3	math_extra.h	/^void MathExtra::negate3(double *v)$/;"	f	class:MathExtra
+neighbor	app_lattice.h	/^  int **neighbor;              \/\/ local indices of neighbors of each site$/;"	m	class:SPPARKS_NS::AppLattice
+neighbors	read_sites.cpp	/^void ReadSites::neighbors()$/;"	f	class:ReadSites
+neighlist	cluster.h	/^  int* neighlist;     \/\/ list of neighbor cluster ids$/;"	m	class:SPPARKS_NS::Cluster
+nentry	image.h	/^  int nentry;$/;"	m	class:SPPARKS_NS::Image
+nevents	solve_group.h	/^  int nevents;$/;"	m	class:SPPARKS_NS::SolveGroup
+nevents	solve_linear.h	/^  int nevents;$/;"	m	class:SPPARKS_NS::SolveLinear
+nevents	solve_tree.h	/^  int nevents;            \/\/ # of propensities (unrounded)$/;"	m	class:SPPARKS_NS::SolveTree
+new_pair	potential.cpp	/^Pair *Potential::new_pair(const char *style)$/;"	f	class:Potential
+new_type_particle	comm_lattice.cpp	/^void CommLattice::new_type_particle(MPI_Datatype* ctype)  $/;"	f	class:CommLattice
+next	variable.cpp	/^int Variable::next(int narg, char **arg)$/;"	f	class:Variable
+next_time	diag.h	/^  double next_time,delta;           \/\/ output params for stats_flag = 0$/;"	m	class:SPPARKS_NS::Diag
+next_time	dump.h	/^  double next_time,delta;    \/\/ params governing output times$/;"	m	class:SPPARKS_NS::Dump
+next_time	output.cpp	/^double Output::next_time(double tcurrent, int logfreq, double delta, $/;"	f	class:Output
+nextoutput	app.h	/^  double nextoutput;$/;"	m	class:SPPARKS_NS::App
+nfile	input.h	/^  int nfile,maxfile;           \/\/ current # and max # of open input files$/;"	m	class:SPPARKS_NS::Input
+nghost	app.h	/^  int nghost;                  \/\/ # of ghost sites I store$/;"	m	class:SPPARKS_NS::App
+nghost	diag_cluster.h	/^  int nghost;                  \/\/ # of ghost sites I store$/;"	m	class:SPPARKS_NS::DiagCluster
+nglobal	app.h	/^  tagint nglobal;              \/\/ global # of sites$/;"	m	class:SPPARKS_NS::App
+ngroups	groups.h	/^  int ngroups;          \/\/ number of groups$/;"	m	class:SPPARKS_NS::Groups
+ngroups	solve_group.h	/^  int ngroups;$/;"	m	class:SPPARKS_NS::SolveGroup
+ngroups_flag	groups.h	/^  int ngroups_flag;     \/\/ 0 for logarithmic, N for N equal-spaced groups$/;"	m	class:SPPARKS_NS::Groups
+ninteger	app.h	/^  int ninteger,ndouble;        \/\/ # of ints and doubles per site$/;"	m	class:SPPARKS_NS::App
+ninteger	comm_lattice.h	/^  int ninteger,ndouble;$/;"	m	class:SPPARKS_NS::CommLattice
+nlocal	app.h	/^  int nlocal;                  \/\/ # of sites I own$/;"	m	class:SPPARKS_NS::App
+nlocal	app_lattice.h	/^    int nlocal;                \/\/ # of owned sites in set$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+nlocal	diag_cluster.h	/^  int nlocal;                  \/\/ # of sites I own$/;"	m	class:SPPARKS_NS::DiagCluster
+nlocal	diag_propensity.h	/^  int nlocal;$/;"	m	class:SPPARKS_NS::DiagPropensity
+nloop	app_lattice.h	/^    int nloop;                 \/\/ # of loops over set for rKMC$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+nmax	app_lattice.h	/^  int nmax;                    \/\/ max # of sites per-site arrays can store$/;"	m	class:SPPARKS_NS::AppLattice
+nme	dump.h	/^  int nme;                   \/\/ # of sites in this dump from me$/;"	m	class:SPPARKS_NS::Dump
+nme_reorder	dump.h	/^  int nme_reorder;           \/\/ # of sites I must own in snapshot$/;"	m	class:SPPARKS_NS::Dump
+nneigh	cluster.h	/^  int nneigh;         \/\/ number of neighbor clusters$/;"	m	class:SPPARKS_NS::Cluster
+nonperiodic	domain.h	/^  int nonperiodic;                  \/\/ 0 = periodic in all dims$/;"	m	class:SPPARKS_NS::Domain
+norm3	math_extra.h	/^void MathExtra::norm3(double *v)$/;"	f	class:MathExtra
+normalize3	math_extra.h	/^void MathExtra::normalize3(const double *v, double *ans)$/;"	f	class:MathExtra
+npixels	image.h	/^  int npixels;$/;"	m	class:SPPARKS_NS::Image
+nprocs	app_lattice.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::AppLattice
+nprocs	comm_lattice.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::CommLattice
+nprocs	diag.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::Diag
+nprocs	domain.h	/^  int me,nprocs;                    \/\/ proc info$/;"	m	class:SPPARKS_NS::Domain
+nprocs	dump.h	/^  int me,nprocs;             \/\/ proc info$/;"	m	class:SPPARKS_NS::Dump
+nprocs	image.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::Image
+nprocs	output.h	/^  int me,nprocs;$/;"	m	class:SPPARKS_NS::Output
+nprocs	universe.h	/^  int me,nprocs;          \/\/ my place in universe$/;"	m	class:SPPARKS_NS::Universe
+nrandom	lattice.h	/^  tagint nrandom;                      \/\/ # of sites for random lattices$/;"	m	class:SPPARKS_NS::Lattice
+nrecv	comm_lattice.h	/^    int nsend,nrecv;               \/\/ number of messages to send\/recv$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+nregion	create_sites.h	/^  int style,nregion,valueflag,valueindex,ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+nregion	domain.h	/^  int nregion;                             \/\/ # of defined Regions$/;"	m	class:SPPARKS_NS::Domain
+nrepeat	diag.h	/^  int logfreq,nrepeat;$/;"	m	class:SPPARKS_NS::Diag
+nrepeat	dump.h	/^  int logfreq,nrepeat;$/;"	m	class:SPPARKS_NS::Dump
+nroundhi	solve_group.h	/^  int nroundlo,nroundhi;         \/\/ info on propensities reset to lo\/hi$/;"	m	class:SPPARKS_NS::SolveGroup
+nroundlo	solve_group.h	/^  int nroundlo,nroundhi;         \/\/ info on propensities reset to lo\/hi$/;"	m	class:SPPARKS_NS::SolveGroup
+nsector	app_lattice.h	/^  int nsector;                 \/\/ 1,2,4,8 = # of sectors$/;"	m	class:SPPARKS_NS::AppLattice
+nsector_user	app_lattice.h	/^  int nsector_user;            \/\/ 0 if default, else 2,4,8$/;"	m	class:SPPARKS_NS::AppLattice
+nselect	app_lattice.h	/^    int nselect;               \/\/ # of selections from set for rKMC$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+nsend	comm_lattice.h	/^    int nsend,nrecv;               \/\/ number of messages to send\/recv$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+nset	app.h	/^  int nset; \/\/baodong$/;"	m	class:SPPARKS_NS::App
+nset	app_lattice.h	/^  int nset;                    \/\/ # of subsets of lattice sites$/;"	m	class:SPPARKS_NS::AppLattice
+nset	comm_lattice.h	/^  int nset;$/;"	m	class:SPPARKS_NS::CommLattice
+nstop	app_lattice.h	/^  double nstop;                \/\/ requested events per site in sector$/;"	m	class:SPPARKS_NS::AppLattice
+nsweeps	app_lattice.h	/^  bigint nsweeps;                \/\/ number of sweeps performed$/;"	m	class:SPPARKS_NS::AppLattice
+nthresh	dump_text.h	/^  int nthresh;               \/\/ # of defined threshholds$/;"	m	class:SPPARKS_NS::DumpText
+ntotal	dump.h	/^  bigint ntotal;             \/\/ total # of per-site lines in snapshot$/;"	m	class:SPPARKS_NS::Dump
+ntotal	solve_tree.h	/^  int ntotal;             \/\/ # of propensities (rounded up to power-of-2) + tree$/;"	m	class:SPPARKS_NS::SolveTree
+ntotal_reorder	dump.h	/^  int ntotal_reorder;        \/\/ # of sites that must be in snapshot$/;"	m	class:SPPARKS_NS::Dump
+ntypes	pair.h	/^  int ntypes;$/;"	m	class:SPPARKS_NS::Pair
+nu	app_vacancy.cpp	30;"	d	file:
+num	variable.h	/^  int *num;                \/\/ # of values for each variable$/;"	m	class:SPPARKS_NS::Variable
+num_active	solve.h	/^  int num_active;$/;"	m	class:SPPARKS_NS::Solve
+numneigh	app_lattice.h	/^  int *numneigh;               \/\/ # of neighbors of each site$/;"	m	class:SPPARKS_NS::AppLattice
+numrandom	app_lattice.h	/^  int numrandom;               \/\/ # of RN used by rejection routine$/;"	m	class:SPPARKS_NS::AppLattice
+nvals	diag_array.h	/^  int nvals;$/;"	m	class:SPPARKS_NS::DiagArray
+nvalues	read_sites.h	/^  int nvalues;               \/\/ # of Values, not including leading ID$/;"	m	class:SPPARKS_NS::ReadSites
+nvar	variable.h	/^  int nvar;                \/\/ # of defined variables$/;"	m	class:SPPARKS_NS::Variable
+nworlds	universe.h	/^  int nworlds;            \/\/ # of worlds in universe$/;"	m	class:SPPARKS_NS::Universe
+nx	create_sites.h	/^  tagint nx,ny,nz;              \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+nx	domain.h	/^  int nx,ny,nz;               \/\/ size of box in lattice spacings$/;"	m	class:SPPARKS_NS::Domain
+nx_global	diag_cluster.h	/^  int nx_global,ny_global,nz_global;$/;"	m	class:SPPARKS_NS::DiagCluster
+ny	create_sites.h	/^  tagint nx,ny,nz;              \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+ny	domain.h	/^  int nx,ny,nz;               \/\/ size of box in lattice spacings$/;"	m	class:SPPARKS_NS::Domain
+ny_global	diag_cluster.h	/^  int nx_global,ny_global,nz_global;$/;"	m	class:SPPARKS_NS::DiagCluster
+nz	create_sites.h	/^  tagint nx,ny,nz;              \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+nz	domain.h	/^  int nx,ny,nz;               \/\/ size of box in lattice spacings$/;"	m	class:SPPARKS_NS::Domain
+nz_global	diag_cluster.h	/^  int nx_global,ny_global,nz_global;$/;"	m	class:SPPARKS_NS::DiagCluster
+offset	pair_lj_cut.h	/^  double **lj1,**lj2,**lj3,**lj4,**offset;$/;"	m	class:SPPARKS_NS::PairLJCut
+offset	solve_tree.h	/^  int offset;             \/\/ index where propensities start as leaves of tree$/;"	m	class:SPPARKS_NS::SolveTree
+offsets	create_sites.cpp	/^void CreateSites::offsets(double **basis)$/;"	f	class:CreateSites
+offsets_3d	create_sites.cpp	/^void CreateSites::offsets_3d(int ibasis, double **basis, $/;"	f	class:CreateSites
+omega_to_angmom	math_extra.cpp	/^void omega_to_angmom(double *w, double *ex, double *ey, double *ez,$/;"	f	namespace:MathExtra
+one	error.cpp	/^void Error::one(const char *file, int line, const char *str)$/;"	f	class:Error
+one	input.cpp	/^char *Input::one(const char *single)$/;"	f	class:Input
+op	set.h	/^    int op;$/;"	m	struct:SPPARKS_NS::Set::Condition
+open	read_sites.cpp	/^void ReadSites::open(char *file)$/;"	f	class:ReadSites
+opendxcount	diag_cluster.h	/^  int opendxcount;$/;"	m	class:SPPARKS_NS::DiagCluster
+opendxroot	diag_cluster.h	/^  char* opendxroot;$/;"	m	class:SPPARKS_NS::DiagCluster
+openfile	dump.cpp	/^void Dump::openfile()$/;"	f	class:Dump
+operator <<	set.cpp	/^std::ostream& operator<<(std::ostream& o, const Point& p)$/;"	f
+operator =	cluster.cpp	/^Cluster& Cluster::operator=(const Cluster& c) {$/;"	f	class:Cluster
+operator >>	set.cpp	/^std::istream& operator>>(std::istream& i,Point& p)$/;"	f
+options	region.cpp	/^void Region::options(int narg, char **arg)$/;"	f	class:Region
+orientx	lattice.h	/^  int orientx[3];                      \/\/ lattice orientation vecs$/;"	m	class:SPPARKS_NS::Lattice
+orienty	lattice.h	/^  int orienty[3];                      \/\/ orientx = what lattice dir lies$/;"	m	class:SPPARKS_NS::Lattice
+orientz	lattice.h	/^  int orientz[3];                      \/\/           along x dim in box$/;"	m	class:SPPARKS_NS::Lattice
+origin	lattice.h	/^  double origin[3];                    \/\/ lattice origin$/;"	m	class:SPPARKS_NS::Lattice
+output	pointers.h	/^  Output *&output;$/;"	m	class:SPPARKS_NS::Pointers
+output	spparks.h	/^  class Output *output;          \/\/ output$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Output
+p	solve_group.h	/^  double *p;                     \/\/ local copy of propensities$/;"	m	class:SPPARKS_NS::SolveGroup
+p2g	groups.h	/^  int *p2g;             \/\/ p2g[n] = which group propensity N is assigned to$/;"	m	class:SPPARKS_NS::Groups
+p2g_index	groups.h	/^  int *p2g_index;       \/\/ p2gindex[n] = index within group of propensity N$/;"	m	class:SPPARKS_NS::Groups
+pack	dump_text.cpp	/^void DumpText::pack(tagint *ids)$/;"	f	class:DumpText
+pack_choice	dump_text.h	/^  FnPtrPack *pack_choice;              \/\/ ptrs to pack functions$/;"	m	class:SPPARKS_NS::DumpText
+pack_darray	dump_text.cpp	/^void DumpText::pack_darray(int n)$/;"	f	class:DumpText
+pack_energy	dump_text.cpp	/^void DumpText::pack_energy(int n)$/;"	f	class:DumpText
+pack_iarray	dump_text.cpp	/^void DumpText::pack_iarray(int n)$/;"	f	class:DumpText
+pack_id	dump_text.cpp	/^void DumpText::pack_id(int n)$/;"	f	class:DumpText
+pack_propensity	dump_text.cpp	/^void DumpText::pack_propensity(int n)$/;"	f	class:DumpText
+pack_site	dump_text.cpp	/^void DumpText::pack_site(int n)$/;"	f	class:DumpText
+pack_x	dump_text.cpp	/^void DumpText::pack_x(int n)$/;"	f	class:DumpText
+pack_y	dump_text.cpp	/^void DumpText::pack_y(int n)$/;"	f	class:DumpText
+pack_z	dump_text.cpp	/^void DumpText::pack_z(int n)$/;"	f	class:DumpText
+padflag	dump.h	/^  int padflag;               \/\/ timestep padding in filename$/;"	m	class:SPPARKS_NS::Dump
+pair	potential.h	/^  class Pair *pair;$/;"	m	class:SPPARKS_NS::Potential	typeref:class:SPPARKS_NS::Potential::Pair
+pair_style	potential.h	/^  char *pair_style;$/;"	m	class:SPPARKS_NS::Potential
+parse	input.cpp	/^void Input::parse()$/;"	f	class:Input
+parse_coeffs	read_sites.cpp	/^void ReadSites::parse_coeffs(int addflag, char *line)$/;"	f	class:ReadSites
+parse_fields	dump_text.cpp	/^int DumpText::parse_fields(int narg, char **arg)$/;"	f	class:DumpText
+parse_keyword	read_sites.cpp	/^void ReadSites::parse_keyword(int first)$/;"	f	class:ReadSites
+partition	groups.cpp	/^void Groups::partition(double *p, int size_in)$/;"	f	class:Groups
+pbcflags	cluster.h	/^  int* pbcflags;      \/\/ list of pbc flags (-1,0,1) $/;"	m	class:SPPARKS_NS::Cluster
+pbcflagsself	cluster.h	/^  int pbcflagsself[3];\/\/ integer pbc shifts accrued from parents$/;"	m	class:SPPARKS_NS::Cluster
+pbcshift	domain.cpp	/^void Domain::pbcshift(double* xyz1, double* xyz2)$/;"	f	class:Domain
+pbcwrap	domain.cpp	/^void Domain::pbcwrap(double* xyz)$/;"	f	class:Domain
+perform_all	comm_lattice.cpp	/^void CommLattice::perform_all()$/;"	f	class:CommLattice
+perform_comm_all	app_lattice.h	/^  virtual void perform_comm_all() {}$/;"	f	class:SPPARKS_NS::AppLattice
+perform_set	comm_lattice.cpp	/^void CommLattice::perform_set()$/;"	f	class:CommLattice
+periodicity	domain.h	/^  int periodicity[3];               \/\/ xyz periodicity as array$/;"	m	class:SPPARKS_NS::Domain
+persp	image.h	/^  double persp;                 \/\/ perspective factor$/;"	m	class:SPPARKS_NS::Image
+perspstr	dump_image.h	/^  char *zoomstr,*perspstr;         \/\/ view zoom and perspective variables$/;"	m	class:SPPARKS_NS::DumpImage
+perspvar	dump_image.h	/^  int zoomvar,perspvar;            \/\/ index to zoom,persp vars$/;"	m	class:SPPARKS_NS::DumpImage
+phi	image.h	/^  double theta,phi;             \/\/ view image from theta,phi$/;"	m	class:SPPARKS_NS::Image
+phistr	dump_image.h	/^  char *thetastr,*phistr;          \/\/ variables for view theta,phi$/;"	m	class:SPPARKS_NS::DumpImage
+phivar	dump_image.h	/^  int thetavar,phivar;             \/\/ index to theta,phi vars$/;"	m	class:SPPARKS_NS::DumpImage
+plus3	math_extra.h	/^void MathExtra::plus3(const double m[3][3], const double m2[3][3],$/;"	f	class:MathExtra
+potential	pointers.h	/^  Potential *&potential;$/;"	m	class:SPPARKS_NS::Pointers
+potential	spparks.h	/^  class Potential *potential;    \/\/ interatomic potentials$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Potential
+precedence	variable.h	/^  int precedence[7];       \/\/ precedence level of math operators$/;"	m	class:SPPARKS_NS::Variable
+previous_time	timer.h	/^  double previous_time;$/;"	m	class:SPPARKS_NS::Timer
+print	cluster.cpp	/^void Cluster::print(FILE* fp) {$/;"	f	class:Cluster
+print	input.cpp	/^void Input::print()$/;"	f	class:Input
+print_connectivity	app_lattice.cpp	/^void AppLattice::print_connectivity()$/;"	f	class:AppLattice
+print_styles	spparks.cpp	/^void SPPARKS::print_styles()$/;"	f	class:SPPARKS
+prob	solve_linear.h	/^  double *prob;$/;"	m	class:SPPARKS_NS::SolveLinear
+proc	app_lattice.h	/^    int id,proc,index;$/;"	m	struct:SPPARKS_NS::AppLattice::Site
+proc	create_sites.h	/^    int id,proc,index;$/;"	m	struct:SPPARKS_NS::CreateSites::Site
+processors	input.cpp	/^void Input::processors()$/;"	f	class:Input
+procgrid	domain.h	/^  int procgrid[3];                  \/\/ assigned # of procs in each dim$/;"	m	class:SPPARKS_NS::Domain
+proclist	dump.h	/^  int *index,*proclist;$/;"	m	class:SPPARKS_NS::Dump
+procneigh	domain.h	/^  int procneigh[3][2];              \/\/ my 6 neighboring procs$/;"	m	class:SPPARKS_NS::Domain
+procs2domain_1d	domain.cpp	/^void Domain::procs2domain_1d()$/;"	f	class:Domain
+procs2domain_2d	domain.cpp	/^void Domain::procs2domain_2d()$/;"	f	class:Domain
+procs2domain_3d	domain.cpp	/^void Domain::procs2domain_3d()$/;"	f	class:Domain
+procs_per_world	universe.h	/^  int *procs_per_world;   \/\/ # of procs in each world$/;"	m	class:SPPARKS_NS::Universe
+propensity	app_lattice.h	/^    double *propensity;        \/\/ propensities for set sites$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+propensity	app_lattice.h	/^  double *propensity;          \/\/ probabilities for each owned site$/;"	m	class:SPPARKS_NS::AppLattice
+propensity	diag_propensity.h	/^  double propensity;$/;"	m	class:SPPARKS_NS::DiagPropensity
+psum	groups.h	/^  double psum;          \/\/ sum of all propensities$/;"	m	class:SPPARKS_NS::Groups
+push_connected_neighbors	app_lattice.cpp	/^void AppLattice::push_connected_neighbors(int i, int* cluster_ids, int id,$/;"	f	class:AppLattice
+push_new_site	app_lattice.cpp	/^void AppLattice::push_new_site(int i, int* cluster_ids, int id,$/;"	f	class:AppLattice
+q_to_exyz	math_extra.cpp	/^void q_to_exyz(double *q, double *ex, double *ey, double *ez)$/;"	f	namespace:MathExtra
+qconjugate	math_extra.h	/^void MathExtra::qconjugate(double *q, double *qc)$/;"	f	class:MathExtra
+qnormalize	math_extra.h	/^void MathExtra::qnormalize(double *q)$/;"	f	class:MathExtra
+quat_to_mat	math_extra.cpp	/^void quat_to_mat(const double *quat, double mat[3][3])$/;"	f	namespace:MathExtra
+quat_to_mat_trans	math_extra.cpp	/^void quat_to_mat_trans(const double *quat, double mat[3][3])$/;"	f	namespace:MathExtra
+quatquat	math_extra.h	/^void MathExtra::quatquat(double *a, double *b, double *c)$/;"	f	class:MathExtra
+quatvec	math_extra.h	/^void MathExtra::quatvec(double *a, double *b, double *c)$/;"	f	class:MathExtra
+ranapp	app_lattice.h	/^  class RandomPark *ranapp;    \/\/ RN generator for KMC and rejection KMC$/;"	m	class:SPPARKS_NS::AppLattice	typeref:class:SPPARKS_NS::AppLattice::RandomPark
+random	groups.h	/^  class RandomPark *random;$/;"	m	class:SPPARKS_NS::Groups	typeref:class:SPPARKS_NS::Groups::RandomPark
+random	image.h	/^  class RandomPark *random;$/;"	m	class:SPPARKS_NS::Image	typeref:class:SPPARKS_NS::Image::RandomPark
+random	solve_group.h	/^  class RandomPark *random;$/;"	m	class:SPPARKS_NS::SolveGroup	typeref:class:SPPARKS_NS::SolveGroup::RandomPark
+random	solve_linear.h	/^  class RandomPark *random;$/;"	m	class:SPPARKS_NS::SolveLinear	typeref:class:SPPARKS_NS::SolveLinear::RandomPark
+random	solve_tree.h	/^  class RandomPark *random;$/;"	m	class:SPPARKS_NS::SolveTree	typeref:class:SPPARKS_NS::SolveTree::RandomPark
+ranmaster	pointers.h	/^  RanMars *&ranmaster;$/;"	m	class:SPPARKS_NS::Pointers
+ranmaster	spparks.h	/^  class RanMars *ranmaster;      \/\/ master random number generator$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::RanMars
+ranstrict	app_lattice.h	/^  class RandomPark *ranstrict; \/\/ RN generator for per-site strict rKMC$/;"	m	class:SPPARKS_NS::AppLattice	typeref:class:SPPARKS_NS::AppLattice::RandomPark
+rav	diag_cluster.h	/^  double vav,rav;$/;"	m	class:SPPARKS_NS::DiagCluster
+rcount	comm_lattice.h	/^    int *rcount;                   \/\/ size of each recv message in sites$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+read_pot_file	app_vacancy.cpp	/^void AppVacancy::read_pot_file(char *arg)$/;"	f	class:AppVacancy
+read_sites	create_sites.cpp	/^void CreateSites::read_sites(AppLattice *apl)$/;"	f	class:CreateSites
+recreate_arrays	app.cpp	/^void App::recreate_arrays()$/;"	f	class:App
+region	input.cpp	/^void Input::region()$/;"	f	class:Input
+regionflag	set.h	/^  int loopflag,regionflag,iregion;$/;"	m	class:SPPARKS_NS::Set
+regions	domain.h	/^  class Region **regions;                  \/\/ list of defined Regions$/;"	m	class:SPPARKS_NS::Domain	typeref:class:SPPARKS_NS::Domain::Region
+release_memory	groups.cpp	/^void Groups::release_memory()$/;"	f	class:Groups
+remove	variable.cpp	/^void Variable::remove(int n)$/;"	f	class:Variable
+reorderflag	dump.h	/^  int reorderflag;           \/\/ 1 if OK to reorder instead of sort$/;"	m	class:SPPARKS_NS::Dump
+request	comm_lattice.h	/^    MPI_Request *request;          \/\/ MPI datums for each recv message$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+reset	random_park.cpp	/^void RandomPark::reset(double rseed, int offset, int warmup)$/;"	f	class:RandomPark
+reset_time	app.cpp	/^void App::reset_time(double newtime)$/;"	f	class:App
+reset_time	input.cpp	/^void Input::reset_time()$/;"	f	class:Input
+resize	solve_group.cpp	/^void SolveGroup::resize(int new_size, double *propensity)$/;"	f	class:SolveGroup
+resize	solve_linear.cpp	/^void SolveLinear::resize(int new_size, double *propensity)$/;"	f	class:SolveLinear
+resize	solve_tree.cpp	/^void SolveTree::resize(int new_size, double *propensity)$/;"	f	class:SolveTree
+retrieve	variable.cpp	/^char *Variable::retrieve(char *name)$/;"	f	class:Variable
+rgbcopy	image.h	/^  char *imageBuffer,*rgbcopy,*writeBuffer;$/;"	m	class:SPPARKS_NS::Image
+rhash	comm_lattice.h	/^    std::map <int, int> rhash;$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+richardson	math_extra.cpp	/^void richardson(double *q, double *m, double *w, double *moments, double dtq)$/;"	f	namespace:MathExtra
+root_proc	universe.h	/^  int *root_proc;         \/\/ root proc in each world$/;"	m	class:SPPARKS_NS::Universe
+rotate	math_extra.cpp	/^void rotate(double matrix[3][3], int i, int j, int k, int l,$/;"	f	namespace:MathExtra
+rotation_generator_x	math_extra.h	/^void MathExtra::rotation_generator_x(const double m[3][3], double ans[3][3])$/;"	f	class:MathExtra
+rotation_generator_y	math_extra.h	/^void MathExtra::rotation_generator_y(const double m[3][3], double ans[3][3])$/;"	f	class:MathExtra
+rotation_generator_z	math_extra.h	/^void MathExtra::rotation_generator_z(const double m[3][3], double ans[3][3])$/;"	f	class:MathExtra
+round_check	solve_group.cpp	/^void SolveGroup::round_check()$/;"	f	class:SolveGroup
+rpart	comm_lattice.h	/^    Particle **rpart;$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+rproc	comm_lattice.h	/^    int *rproc;                    \/\/ proc for each recv message$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+run	app.cpp	/^void App::run(int narg, char **arg)$/;"	f	class:App
+run	input.cpp	/^void Input::run()$/;"	f	class:Input
+sample	groups.cpp	/^int Groups::sample(double *p)$/;"	f	class:Groups
+sample_with_rejection	groups.cpp	/^int Groups::sample_with_rejection(int g, double *p)$/;"	f	class:Groups
+sanity_check	groups.cpp	/^void Groups::sanity_check(double *p)$/;"	f	class:Groups
+saturate	image.h	/^  inline double saturate(double v) {$/;"	f	class:SPPARKS_NS::Image
+scalar_times3	math_extra.h	/^inline void MathExtra::scalar_times3(const double f, double m[3][3]) $/;"	f	class:MathExtra
+scale	diag.h	/^  double scale,delay;$/;"	m	class:SPPARKS_NS::Diag
+scale	dump.h	/^  double scale,delay;$/;"	m	class:SPPARKS_NS::Dump
+scale3	math_extra.h	/^void MathExtra::scale3(double s, double *v)$/;"	f	class:MathExtra
+scolor	dump_image.h	/^  int shape,boundflag,scolor,sdiam,boundvalue,boundindex;$/;"	m	class:SPPARKS_NS::DumpImage
+scount	comm_lattice.h	/^    int *scount;                 \/\/ size of each send message in sites$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+screen	pointers.h	/^  FILE *&screen;$/;"	m	class:SPPARKS_NS::Pointers
+screen	spparks.h	/^  FILE *screen;            \/\/ screen output for my world$/;"	m	class:SPPARKS_NS::SPPARKS
+sdiam	dump_image.h	/^  int shape,boundflag,scolor,sdiam,boundvalue,boundindex;$/;"	m	class:SPPARKS_NS::DumpImage
+sdiamvalue	dump_image.h	/^  double sdiamvalue;$/;"	m	class:SPPARKS_NS::DumpImage
+sectorflag	app_lattice.h	/^  int sectorflag;              \/\/ 1 if partition my domain into sectors$/;"	m	class:SPPARKS_NS::AppLattice
+seed	image.h	/^  int seed;                     \/\/ RN seed for SSAO$/;"	m	class:SPPARKS_NS::Image
+seed	input.cpp	/^void Input::seed()$/;"	f	class:Input
+seed	random_park.h	/^  int seed;$/;"	m	class:SPPARKS_NS::RandomPark
+set	app_lattice.h	/^  Set *set;                    \/\/ list of subsets$/;"	m	class:SPPARKS_NS::AppLattice
+set	solve_tree.cpp	/^void SolveTree::set(int i, double value)$/;"	f	class:SolveTree
+set	variable.cpp	/^void Variable::set(char *name, char *value)$/;"	f	class:Variable
+set	variable.cpp	/^void Variable::set(int narg, char **arg)$/;"	f	class:Variable
+set_boundary	domain.cpp	/^void Domain::set_boundary(int narg, char **arg)$/;"	f	class:Domain
+set_box	domain.cpp	/^void Domain::set_box()$/;"	f	class:Domain
+set_displace	set.cpp	/^void Set::set_displace(int lhs, int rhs)$/;"	f	class:Set
+set_e	app_vacancy.cpp	/^void AppVacancy::set_e(int i, double ev, double er, double es)$/;"	f	class:AppVacancy
+set_iset	comm_lattice.cpp	/^void CommLattice::set_iset(int i)$/;"	f	class:CommLattice
+set_it	app_lattice.h	/^  virtual void set_it(int, int, int, int) {}$/;"	f	class:SPPARKS_NS::AppLattice
+set_it	app_vacancy.cpp	/^void AppVacancy::set_it(int x, int y, int z, int it)$/;"	f	class:AppVacancy
+set_it_e	app_vacancy.cpp	/^void AppVacancy::set_it_e(int x, int y, int z, int it, double ev, double er, double es)$/;"	f	class:AppVacancy
+set_lattice	domain.cpp	/^void Domain::set_lattice(int narg, char **arg)$/;"	f	class:Domain
+set_pbcflags	domain.cpp	/^void Domain::set_pbcflags(double* xyz1, double* xyz2, int* pbcflags)$/;"	f	class:Domain
+set_range	set.cpp	/^void Set::set_range(int lhs, int rhs)$/;"	f	class:Set
+set_sector	app_lattice.cpp	/^void AppLattice::set_sector(int narg, char **arg)$/;"	f	class:AppLattice
+set_single	set.cpp	/^void Set::set_single(int lhs, int rhs)$/;"	f	class:Set
+set_stats	output.cpp	/^void Output::set_stats(int narg, char **arg)$/;"	f	class:Output
+set_temperature	app_lattice.cpp	/^void AppLattice::set_temperature(int narg, char **arg)$/;"	f	class:AppLattice
+setflag	pair.h	/^  int **setflag;$/;"	m	class:SPPARKS_NS::Pair
+setswap	comm_lattice.h	/^  Swap *setswap;$/;"	m	class:SPPARKS_NS::CommLattice
+settings	pair_lj_cut.cpp	/^void PairLJCut::settings(int narg, char **arg)$/;"	f	class:PairLJCut
+setup	app_lattice.cpp	/^void AppLattice::setup()$/;"	f	class:AppLattice
+setup	output.cpp	/^double Output::setup(double time)$/;"	f	class:Output
+setup_app	app_lattice.h	/^  virtual void setup_app() {}$/;"	f	class:SPPARKS_NS::AppLattice
+setup_app	app_vacancy.cpp	/^void AppVacancy::setup_app()$/;"	f	class:AppVacancy
+setup_end_app	app_lattice.h	/^  virtual void setup_end_app() {}$/;"	f	class:SPPARKS_NS::AppLattice
+sfree	memory.cpp	/^void Memory::sfree(void *ptr)$/;"	f	class:Memory
+shape	dump_image.h	/^  int shape,boundflag,scolor,sdiam,boundvalue,boundindex;$/;"	m	class:SPPARKS_NS::DumpImage
+shash	comm_lattice.h	/^    std::map <int, int> shash;$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+shiny	image.h	/^  double shiny;                 \/\/ shininess of objects$/;"	m	class:SPPARKS_NS::Image
+sigma	pair_lj_cut.h	/^  double **epsilon,**sigma;$/;"	m	class:SPPARKS_NS::PairLJCut
+single	image.h	/^    int single,lo,hi;              \/\/ NUMERIC or MINVALUE or MAXVALUE$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+single_energy	app_vacancy.cpp	/^double AppVacancy::single_energy(int it, double e_v, double e_r, double e_s) {$/;"	f	class:AppVacancy
+singlefile_opened	dump.h	/^  int singlefile_opened;     \/\/ 1 = one big file, already opened, else 0$/;"	m	class:SPPARKS_NS::Dump
+site2i	app_lattice.h	/^    int *site2i;               \/\/ map from set sites to lattice index$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+site_energy	app_vacancy.cpp	/^double AppVacancy::site_energy(int i)$/;"	f	class:AppVacancy
+site_event	app_vacancy.cpp	/^void AppVacancy::site_event(int ii, int *notinset, class RandomPark *random)$/;"	f	class:AppVacancy
+site_propensity	app_vacancy.cpp	/^double AppVacancy::site_propensity(int i)$/;"	f	class:AppVacancy
+siteijk	create_sites.h	/^  int **siteijk;               \/\/ global indices of each site$/;"	m	class:SPPARKS_NS::CreateSites
+siteindex	set.h	/^  int siteindex;$/;"	m	class:SPPARKS_NS::Set
+sitelist	app_lattice.h	/^  int *sitelist;               \/\/ randomized list of site indices$/;"	m	class:SPPARKS_NS::AppLattice
+sites	read_sites.cpp	/^void ReadSites::sites()$/;"	f	class:ReadSites
+sites_exist	app.h	/^  int sites_exist;        \/\/ 1 if sites have been created$/;"	m	class:SPPARKS_NS::App
+siteseeds	app_lattice.h	/^  int *siteseeds;              \/\/ per-site seeds for ransite$/;"	m	class:SPPARKS_NS::AppLattice
+size	groups.h	/^  int size;             \/\/ number of propensities$/;"	m	class:SPPARKS_NS::Groups
+size_one	dump.h	/^  int size_one;              \/\/ # of quantities for one site$/;"	m	class:SPPARKS_NS::Dump
+smallint	spktype.h	/^typedef int smallint;$/;"	t	namespace:SPPARKS_NS
+smalloc	memory.cpp	/^void *Memory::smalloc(bigint nbytes, const char *name)$/;"	f	class:Memory
+smax	comm_lattice.h	/^    int *smax;$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+snormalize3	math_extra.h	/^void MathExtra::snormalize3(const double length, const double *v, double *ans)$/;"	f	class:MathExtra
+solve	app_lattice.h	/^    class Solve *solve;        \/\/ KMC solver$/;"	m	struct:SPPARKS_NS::AppLattice::Set	typeref:class:SPPARKS_NS::AppLattice::Set::Solve
+solve	pointers.h	/^  Solve *&solve;$/;"	m	class:SPPARKS_NS::Pointers
+solve	spparks.h	/^  class Solve *solve;            \/\/ solver$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Solve
+solve_style	input.cpp	/^void Input::solve_style()$/;"	f	class:Input
+sort	dump.cpp	/^void Dump::sort()$/;"	f	class:Dump
+sort_flag	dump.h	/^  int sort_flag;             \/\/ 1 if sorted output$/;"	m	class:SPPARKS_NS::Dump
+sortcol	dump.h	/^  int sortcol;               \/\/ 0 to sort on ID, 1-N on columns$/;"	m	class:SPPARKS_NS::Dump
+sortcolm1	dump.h	/^  int sortcolm1;             \/\/ sortcol - 1$/;"	m	class:SPPARKS_NS::Dump
+sortorder	dump.h	/^  int sortorder;             \/\/ ASCEND or DESCEND$/;"	m	class:SPPARKS_NS::Dump
+spart	comm_lattice.h	/^    Particle **spart;$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+specularHardness	image.h	/^  double specularHardness;$/;"	m	class:SPPARKS_NS::Image
+specularIntensity	image.h	/^  double specularIntensity;$/;"	m	class:SPPARKS_NS::Image
+spk	pointers.h	/^  SPPARKS *spk;$/;"	m	class:SPPARKS_NS::Pointers
+spparks_close	library.cpp	/^void spparks_close(void *ptr)$/;"	f
+spparks_command	library.cpp	/^char *spparks_command(void *ptr, char *str)$/;"	f
+spparks_energy	library.cpp	/^double spparks_energy(void *ptr)$/;"	f
+spparks_extract	library.cpp	/^void *spparks_extract(void *ptr, char *name)$/;"	f
+spparks_file	library.cpp	/^void spparks_file(void *ptr, char *str)$/;"	f
+spparks_open	library.cpp	/^void spparks_open(int argc, char **argv, MPI_Comm communicator, void **ptr)$/;"	f
+spparks_open_no_mpi	library.cpp	/^void spparks_open_no_mpi(int argc, char **argv, void **ptr)$/;"	f
+sproc	comm_lattice.h	/^    int *sproc;                    \/\/ proc for each send message$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+srealloc	memory.cpp	/^void *Memory::srealloc(void *ptr, bigint nbytes, const char *name)$/;"	f	class:Memory
+ssao	image.h	/^  int ssao;                     \/\/ SSAO on or off$/;"	m	class:SPPARKS_NS::Image
+ssaoint	image.h	/^  double ssaoint;               \/\/ strength of shading from 0 to 1$/;"	m	class:SPPARKS_NS::Image
+stamp	timer.cpp	/^void Timer::stamp()$/;"	f	class:Timer
+stamp	timer.cpp	/^void Timer::stamp(int which)$/;"	f	class:Timer
+stats	app.h	/^  virtual void stats(char *strtmp) {strtmp[0] = '\\0';};$/;"	f	class:SPPARKS_NS::App
+stats	app_lattice.cpp	/^void AppLattice::stats(char *strtmp)$/;"	f	class:AppLattice
+stats	diag.h	/^  virtual void stats(char *strtmp) {strtmp[0] = '\\0';};$/;"	f	class:SPPARKS_NS::Diag
+stats	diag_array.cpp	/^void DiagArray::stats(char *strtmp)$/;"	f	class:DiagArray
+stats	diag_cluster.cpp	/^void DiagCluster::stats(char *strtmp)$/;"	f	class:DiagCluster
+stats	diag_energy.cpp	/^void DiagEnergy::stats(char *strtmp)$/;"	f	class:DiagEnergy
+stats	diag_propensity.cpp	/^void DiagPropensity::stats(char *strtmp)$/;"	f	class:DiagPropensity
+stats	finish.cpp	/^void Finish::stats(int n, double *data, $/;"	f	class:Finish
+stats	input.cpp	/^void Input::stats()$/;"	f	class:Input
+stats	output.cpp	/^void Output::stats(int timeflag)$/;"	f	class:Output
+stats_delay	output.h	/^  double stats_scale,stats_delay;$/;"	m	class:SPPARKS_NS::Output
+stats_delta	output.h	/^  double stats_time,stats_delta;     \/\/ stats info$/;"	m	class:SPPARKS_NS::Output
+stats_flag	diag.h	/^  int stats_flag;                   \/\/ 1 if stats drives output, 0 if not$/;"	m	class:SPPARKS_NS::Diag
+stats_header	app.h	/^  virtual void stats_header(char *strtmp) {strtmp[0] = '\\0';};$/;"	f	class:SPPARKS_NS::App
+stats_header	app_lattice.cpp	/^void AppLattice::stats_header(char *strtmp)$/;"	f	class:AppLattice
+stats_header	diag.h	/^  virtual void stats_header(char *strtmp) {strtmp[0] = '\\0';};$/;"	f	class:SPPARKS_NS::Diag
+stats_header	diag_array.cpp	/^void DiagArray::stats_header(char *strtmp)$/;"	f	class:DiagArray
+stats_header	diag_cluster.cpp	/^void DiagCluster::stats_header(char *strtmp)$/;"	f	class:DiagCluster
+stats_header	diag_energy.cpp	/^void DiagEnergy::stats_header(char *strtmp)$/;"	f	class:DiagEnergy
+stats_header	diag_propensity.cpp	/^void DiagPropensity::stats_header(char *strtmp)$/;"	f	class:DiagPropensity
+stats_header	output.cpp	/^void Output::stats_header()$/;"	f	class:Output
+stats_logfreq	output.h	/^  int stats_logfreq,stats_nrepeat;$/;"	m	class:SPPARKS_NS::Output
+stats_nrepeat	output.h	/^  int stats_logfreq,stats_nrepeat;$/;"	m	class:SPPARKS_NS::Output
+stats_scale	output.h	/^  double stats_scale,stats_delay;$/;"	m	class:SPPARKS_NS::Output
+stats_time	output.h	/^  double stats_time,stats_delta;     \/\/ stats info$/;"	m	class:SPPARKS_NS::Output
+status	comm_lattice.h	/^    MPI_Status *status;$/;"	m	struct:SPPARKS_NS::CommLattice::Swap
+stoptime	app.h	/^  double stoptime;        \/\/ time at which to stop this run$/;"	m	class:SPPARKS_NS::App
+stride	set.h	/^    int lhs,type,index,stride;$/;"	m	struct:SPPARKS_NS::Set::Condition
+structured_lattice	create_sites.cpp	/^void CreateSites::structured_lattice()$/;"	f	class:CreateSites
+style	Make.sh	/^style () {$/;"	f
+style	app.h	/^  char *style;            \/\/ style name of app$/;"	m	class:SPPARKS_NS::App
+style	create_sites.h	/^  int style,nregion,valueflag,valueindex,ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+style	diag.h	/^  char *style;$/;"	m	class:SPPARKS_NS::Diag
+style	dump.h	/^  char *style;               \/\/ style of Dump$/;"	m	class:SPPARKS_NS::Dump
+style	lattice.h	/^  int style;                           \/\/ enum list of NONE,SC,FCC,etc$/;"	m	class:SPPARKS_NS::Lattice
+style	region.h	/^  char *id,*style;$/;"	m	class:SPPARKS_NS::Region
+style	solve.h	/^  char *style;$/;"	m	class:SPPARKS_NS::Solve
+style	variable.h	/^  int *style;              \/\/ style of each variable$/;"	m	class:SPPARKS_NS::Variable
+sub3	math_extra.h	/^void MathExtra::sub3(const double *v1, const double *v2, double *ans)$/;"	f	class:MathExtra
+substitute	input.cpp	/^void Input::substitute(char *str, int flag)$/;"	f	class:Input
+subxhi	domain.h	/^  double subxlo,subxhi,subylo,subyhi,subzlo,subzhi;    \/\/ my portion of box$/;"	m	class:SPPARKS_NS::Domain
+subxlo	domain.h	/^  double subxlo,subxhi,subylo,subyhi,subzlo,subzhi;    \/\/ my portion of box$/;"	m	class:SPPARKS_NS::Domain
+subyhi	domain.h	/^  double subxlo,subxhi,subylo,subyhi,subzlo,subzhi;    \/\/ my portion of box$/;"	m	class:SPPARKS_NS::Domain
+subylo	domain.h	/^  double subxlo,subxhi,subylo,subyhi,subzlo,subzhi;    \/\/ my portion of box$/;"	m	class:SPPARKS_NS::Domain
+subzhi	domain.h	/^  double subxlo,subxhi,subylo,subyhi,subzlo,subzhi;    \/\/ my portion of box$/;"	m	class:SPPARKS_NS::Domain
+subzlo	domain.h	/^  double subxlo,subxhi,subylo,subyhi,subzlo,subzhi;    \/\/ my portion of box$/;"	m	class:SPPARKS_NS::Domain
+sum	solve.h	/^  double sum;$/;"	m	class:SPPARKS_NS::Solve
+sum_tree	solve_tree.cpp	/^void SolveTree::sum_tree()$/;"	f	class:SolveTree
+surfaceBuffer	image.h	/^  double *depthBuffer,*surfaceBuffer;$/;"	m	class:SPPARKS_NS::Image
+surfacecopy	image.h	/^  double *depthcopy,*surfacecopy;$/;"	m	class:SPPARKS_NS::Image
+svalue	image.h	/^    double svalue,lvalue,hvalue;   \/\/ actual value$/;"	m	struct:SPPARKS_NS::Image::MapEntry
+sweepflag	app_lattice.h	/^  int sweepflag;               \/\/ set if rejection KMC solver$/;"	m	class:SPPARKS_NS::AppLattice
+t_inverse	app_lattice.h	/^  double temperature,t_inverse;  \/\/ temperature settings$/;"	m	class:SPPARKS_NS::AppLattice
+tagint	spktype.h	/^typedef int64_t tagint;$/;"	t	namespace:SPPARKS_NS
+tagrandom	random_park.cpp	/^tagint RandomPark::tagrandom(tagint n)$/;"	f	class:RandomPark
+tagreset	random_park.cpp	/^void RandomPark::tagreset(double rseed, tagint offset, int warmup)$/;"	f	class:RandomPark
+tanPerPixel	image.h	/^  double tanPerPixel;$/;"	m	class:SPPARKS_NS::Image
+temperature	app_lattice.h	/^  double temperature,t_inverse;  \/\/ temperature settings$/;"	m	class:SPPARKS_NS::AppLattice
+theta	image.h	/^  double theta,phi;             \/\/ view image from theta,phi$/;"	m	class:SPPARKS_NS::Image
+thetastr	dump_image.h	/^  char *thetastr,*phistr;          \/\/ variables for view theta,phi$/;"	m	class:SPPARKS_NS::DumpImage
+thetavar	dump_image.h	/^  int thetavar,phivar;             \/\/ index to theta,phi vars$/;"	m	class:SPPARKS_NS::DumpImage
+thresh_array	dump_text.h	/^  int *thresh_array;         \/\/ array to threshold on for each nthresh$/;"	m	class:SPPARKS_NS::DumpText
+thresh_index	dump_text.h	/^  int *thresh_index;         \/\/ N index for iN and dN thresholds$/;"	m	class:SPPARKS_NS::DumpText
+thresh_op	dump_text.h	/^  int *thresh_op;            \/\/ threshold operation for each nthresh$/;"	m	class:SPPARKS_NS::DumpText
+thresh_value	dump_text.h	/^  double *thresh_value;      \/\/ threshold value for each nthresh$/;"	m	class:SPPARKS_NS::DumpText
+time	app.h	/^  double time;            \/\/ current simulation time due to executed events$/;"	m	class:SPPARKS_NS::App
+timer	pointers.h	/^  Timer *&timer;$/;"	m	class:SPPARKS_NS::Pointers
+timer	spparks.h	/^  class Timer *timer;            \/\/ timer$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Timer
+times3	math_extra.h	/^void MathExtra::times3(const double m[3][3], const double m2[3][3],$/;"	f	class:MathExtra
+times3_transpose	math_extra.h	/^void MathExtra::times3_transpose(const double m[3][3], const double m2[3][3],$/;"	f	class:MathExtra
+transport	app_lattice.h	/^  virtual void transport(){}$/;"	f	class:SPPARKS_NS::AppLattice
+transport	app_vacancy.cpp	/^void AppVacancy::transport() {$/;"	f	class:AppVacancy
+transpose_diag3	math_extra.h	/^void MathExtra::transpose_diag3(const double m[3][3], const double *d, $/;"	f	class:MathExtra
+transpose_matvec	math_extra.h	/^void MathExtra::transpose_matvec(const double *ex, const double *ey, $/;"	f	class:MathExtra
+transpose_matvec	math_extra.h	/^void MathExtra::transpose_matvec(const double m[3][3], const double *v,$/;"	f	class:MathExtra
+transpose_times3	math_extra.h	/^void MathExtra::transpose_times3(const double m[3][3], const double m2[3][3],$/;"	f	class:MathExtra
+tree	solve_tree.h	/^  double *tree;           \/\/ tree + propensities$/;"	m	class:SPPARKS_NS::SolveTree
+tstop	app_lattice.h	/^  double tstop;                \/\/ requested time increment in sector$/;"	m	class:SPPARKS_NS::AppLattice
+type	app_lattice.h	/^  virtual int type(int){}$/;"	f	class:SPPARKS_NS::AppLattice
+type	app_vacancy.cpp	/^int AppVacancy::type(int i) {$/;"	f	class:AppVacancy
+type	set.h	/^    int lhs,type,index,stride;$/;"	m	struct:SPPARKS_NS::Set::Condition
+u	random_mars.h	/^  double *u;$/;"	m	class:SPPARKS_NS::RanMars
+ulogfile	universe.h	/^  FILE *ulogfile;         \/\/ universe logfile$/;"	m	class:SPPARKS_NS::Universe
+undump	input.cpp	/^void Input::undump()$/;"	f	class:Input
+undump	output.cpp	/^void Output::undump(int narg, char **arg)$/;"	f	class:Output
+uniform	random_mars.cpp	/^double RanMars::uniform()$/;"	f	class:RanMars
+uniform	random_park.cpp	/^double RandomPark::uniform()$/;"	f	class:RandomPark
+universe	pointers.h	/^  Universe *&universe;$/;"	m	class:SPPARKS_NS::Pointers
+universe	spparks.h	/^  class Universe *universe;      \/\/ universe of processors$/;"	m	class:SPPARKS_NS::SPPARKS	typeref:class:SPPARKS_NS::SPPARKS::Universe
+universe_all	error.cpp	/^void Error::universe_all(const char *file, int line, const char *str)$/;"	f	class:Error
+universe_one	error.cpp	/^void Error::universe_one(const char *file, int line, const char *str)$/;"	f	class:Error
+up	image.h	/^  double up[3];                 \/\/ up direction in image$/;"	m	class:SPPARKS_NS::Image
+update	solve_group.cpp	/^void SolveGroup::update(int n, double *propensity)$/;"	f	class:SolveGroup
+update	solve_group.cpp	/^void SolveGroup::update(int n, int *indices, double *propensity)$/;"	f	class:SolveGroup
+update	solve_linear.cpp	/^void SolveLinear::update(int n, double *propensity)$/;"	f	class:SolveLinear
+update	solve_linear.cpp	/^void SolveLinear::update(int n, int *indices, double *propensity)$/;"	f	class:SolveLinear
+update	solve_tree.cpp	/^void SolveTree::update(int n, double *propensity)$/;"	f	class:SolveTree
+update	solve_tree.cpp	/^void SolveTree::update(int n, int *indices, double *propensity)$/;"	f	class:SolveTree
+update_only	app_lattice.h	/^  int update_only;             \/\/ 1 if skip other iteration techniques$/;"	m	class:SPPARKS_NS::AppLattice
+upxstr	dump_image.h	/^  char *upxstr,*upystr,*upzstr;    \/\/ view up vector variables$/;"	m	class:SPPARKS_NS::DumpImage
+upxvar	dump_image.h	/^  int upxvar,upyvar,upzvar;        \/\/ index to up vector vars$/;"	m	class:SPPARKS_NS::DumpImage
+upystr	dump_image.h	/^  char *upxstr,*upystr,*upzstr;    \/\/ view up vector variables$/;"	m	class:SPPARKS_NS::DumpImage
+upyvar	dump_image.h	/^  int upxvar,upyvar,upzvar;        \/\/ index to up vector vars$/;"	m	class:SPPARKS_NS::DumpImage
+upzstr	dump_image.h	/^  char *upxstr,*upystr,*upzstr;    \/\/ view up vector variables$/;"	m	class:SPPARKS_NS::DumpImage
+upzvar	dump_image.h	/^  int upxvar,upyvar,upzvar;        \/\/ index to up vector vars$/;"	m	class:SPPARKS_NS::DumpImage
+usage	memory.h	/^    bigint usage(TYPE ****array, int n1, int n2, int n3, int n4)$/;"	f	class:SPPARKS_NS::Memory
+usage	memory.h	/^    bigint usage(TYPE ***array, int n1, int n2, int n3)$/;"	f	class:SPPARKS_NS::Memory
+usage	memory.h	/^    bigint usage(TYPE **array, int n1, int n2)$/;"	f	class:SPPARKS_NS::Memory
+usage	memory.h	/^    bigint usage(TYPE *array, int n)$/;"	f	class:SPPARKS_NS::Memory
+uscreen	universe.h	/^  FILE *uscreen;          \/\/ universe screen output$/;"	m	class:SPPARKS_NS::Universe
+user_procgrid	domain.h	/^  int user_procgrid[3];             \/\/ user request for procs in each dim$/;"	m	class:SPPARKS_NS::Domain
+user_update	app_lattice.h	/^  virtual void user_update(double) {}$/;"	f	class:SPPARKS_NS::AppLattice
+username	image.h	/^  char **username;$/;"	m	class:SPPARKS_NS::Image
+userrgb	image.h	/^  double **userrgb;$/;"	m	class:SPPARKS_NS::Image
+uworld	universe.h	/^  MPI_Comm uworld;        \/\/ communicator for entire universe$/;"	m	class:SPPARKS_NS::Universe
+vacant	app_lattice.h	/^    std::map<int,int> vacant;$/;"	m	struct:SPPARKS_NS::AppLattice::Set
+vacant	app_lattice.h	/^  std::map<int,int> *vacant;$/;"	m	class:SPPARKS_NS::AppLattice
+vals	diag_array.h	/^  double *vals;$/;"	m	class:SPPARKS_NS::DiagArray
+value2color	image.cpp	/^double *Image::value2color(double value)$/;"	f	class:Image
+valueflag	create_sites.h	/^  int style,nregion,valueflag,valueindex,ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+valueindex	create_sites.h	/^  int style,nregion,valueflag,valueindex,ivalue;$/;"	m	class:SPPARKS_NS::CreateSites
+values	read_sites.cpp	/^void ReadSites::values()$/;"	f	class:ReadSites
+variable	input.h	/^  class Variable *variable;    \/\/ defined variables$/;"	m	class:SPPARKS_NS::Input	typeref:class:SPPARKS_NS::Input::Variable
+vav	diag_cluster.h	/^  double vav,rav;$/;"	m	class:SPPARKS_NS::DiagCluster
+vecmat	math_extra.h	/^void MathExtra::vecmat(const double *v, const double m[3][3], double *ans)$/;"	f	class:MathExtra
+vecquat	math_extra.h	/^void MathExtra::vecquat(double *a, double *b, double *c)$/;"	f	class:MathExtra
+version	universe.h	/^  char *version;          \/\/ SPPARKS version string = date$/;"	m	class:SPPARKS_NS::Universe
+vformat	dump_text.h	/^  char **vformat;            \/\/ format string for each vector element$/;"	m	class:SPPARKS_NS::DumpText
+view_params	dump_image.cpp	/^void DumpImage::view_params()$/;"	f	class:DumpImage
+view_params	image.cpp	/^void Image::view_params(double boxxlo, double boxxhi, double boxylo,$/;"	f	class:Image
+viewflag	dump_image.h	/^  int viewflag;                    \/\/ overall view is static or dynamic$/;"	m	class:SPPARKS_NS::DumpImage
+vindex	dump_text.h	/^  int *vindex;               \/\/ index into int,double packs$/;"	m	class:SPPARKS_NS::DumpText
+volume	cluster.h	/^  double volume;      \/\/ number of sites in cluster$/;"	m	class:SPPARKS_NS::Cluster
+vtype	dump_text.h	/^  int *vtype;                \/\/ type of each vector (INT, DOUBLE)$/;"	m	class:SPPARKS_NS::DumpText
+warning	error.cpp	/^void Error::warning(const char *file, int line, const char *str, int logflag)$/;"	f	class:Error
+width	image.h	/^  int width,height;             \/\/ size of image$/;"	m	class:SPPARKS_NS::Image
+work	input.h	/^  char *line,*copy,*work;      \/\/ input line & copy of it$/;"	m	class:SPPARKS_NS::Input
+world	pointers.h	/^  MPI_Comm &world;$/;"	m	class:SPPARKS_NS::Pointers
+world	spparks.h	/^  MPI_Comm world;          \/\/ communicator for my world of procs$/;"	m	class:SPPARKS_NS::SPPARKS
+write	dump.cpp	/^void Dump::write(double time)$/;"	f	class:Dump
+write	dump_image.cpp	/^void DumpImage::write(double time)$/;"	f	class:DumpImage
+write3	math_extra.cpp	/^void write3(const double mat[3][3])$/;"	f	namespace:MathExtra
+writeBuffer	image.h	/^  char *imageBuffer,*rgbcopy,*writeBuffer;$/;"	m	class:SPPARKS_NS::Image
+write_JPG	image.cpp	/^void Image::write_JPG(FILE *fp) $/;"	f	class:Image
+write_PPM	image.cpp	/^void Image::write_PPM(FILE *fp) $/;"	f	class:Image
+write_binary	dump_text.cpp	/^void DumpText::write_binary(int n, double *buf)$/;"	f	class:DumpText
+write_choice	dump_text.h	/^  FnPtrData write_choice;              \/\/ ptr to write data functions$/;"	m	class:SPPARKS_NS::DumpText
+write_data	dump_text.cpp	/^void DumpText::write_data(int n, double *buf)$/;"	f	class:DumpText
+write_footer	dump.h	/^  virtual void write_footer() {}$/;"	f	class:SPPARKS_NS::Dump
+write_header	diag_cluster.cpp	/^void DiagCluster::write_header()$/;"	f	class:DiagCluster
+write_header	dump_sites.cpp	/^void DumpSites::write_header(bigint ndump, double time)$/;"	f	class:DumpSites
+write_header	dump_text.cpp	/^void DumpText::write_header(bigint ndump, double time)$/;"	f	class:DumpText
+write_text	dump_text.cpp	/^void DumpText::write_text(int n, double *buf)$/;"	f	class:DumpText
+x	app_lattice.h	/^    double x,y,z;$/;"	m	struct:SPPARKS_NS::AppLattice::Site
+x	comm_lattice.h	/^    int x,y,z,it;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+x	create_sites.h	/^    double x,y,z;$/;"	m	struct:SPPARKS_NS::CreateSites::Site
+x	set.cpp	/^    double x, y;$/;"	m	class:Point	file:
+xctr	image.h	/^  double xctr,yctr,zctr;        \/\/ center of image in user coords$/;"	m	class:SPPARKS_NS::Image
+xhi	create_sites.h	/^  tagint xlo,xhi,ylo,yhi,zlo,zhi;   \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+xhi	region_block.h	/^  double xlo,xhi,ylo,yhi,zlo,zhi;$/;"	m	class:SPPARKS_NS::RegBlock
+xlattice	create_sites.h	/^  double xlattice,ylattice,zlattice;$/;"	m	class:SPPARKS_NS::CreateSites
+xlattice	lattice.h	/^  double xlattice,ylattice,zlattice;   \/\/ lattice scale factors in 3 dims$/;"	m	class:SPPARKS_NS::Lattice
+xlo	create_sites.h	/^  tagint xlo,xhi,ylo,yhi,zlo,zhi;   \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+xlo	region_block.h	/^  double xlo,xhi,ylo,yhi,zlo,zhi;$/;"	m	class:SPPARKS_NS::RegBlock
+xmid	app_lattice.h	/^  double xmid;$/;"	m	class:SPPARKS_NS::AppLattice
+xorig	create_sites.h	/^  double xorig,yorig,zorig;$/;"	m	class:SPPARKS_NS::CreateSites
+xperiodic	domain.h	/^  int xperiodic,yperiodic,zperiodic;  \/\/ 0 = non-periodic, 1 = periodic$/;"	m	class:SPPARKS_NS::Domain
+xprd	domain.h	/^  double xprd,yprd,zprd;                               \/\/ global domain$/;"	m	class:SPPARKS_NS::Domain
+xscale	region.h	/^  double xscale,yscale,zscale;      \/\/ scale factors for lattice units$/;"	m	class:SPPARKS_NS::Region
+xyz	app.h	/^  double **xyz;                \/\/ coords of site$/;"	m	class:SPPARKS_NS::App
+xyz	diag_cluster.h	/^  double **xyz;                \/\/ coords of site$/;"	m	class:SPPARKS_NS::DiagCluster
+y	app_lattice.h	/^    double x,y,z;$/;"	m	struct:SPPARKS_NS::AppLattice::Site
+y	comm_lattice.h	/^    int x,y,z,it;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+y	create_sites.h	/^    double x,y,z;$/;"	m	struct:SPPARKS_NS::CreateSites::Site
+y	set.cpp	/^    double x, y;$/;"	m	class:Point	file:
+yctr	image.h	/^  double xctr,yctr,zctr;        \/\/ center of image in user coords$/;"	m	class:SPPARKS_NS::Image
+yhi	create_sites.h	/^  tagint xlo,xhi,ylo,yhi,zlo,zhi;   \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+yhi	region_block.h	/^  double xlo,xhi,ylo,yhi,zlo,zhi;$/;"	m	class:SPPARKS_NS::RegBlock
+ylattice	create_sites.h	/^  double xlattice,ylattice,zlattice;$/;"	m	class:SPPARKS_NS::CreateSites
+ylattice	lattice.h	/^  double xlattice,ylattice,zlattice;   \/\/ lattice scale factors in 3 dims$/;"	m	class:SPPARKS_NS::Lattice
+ylo	create_sites.h	/^  tagint xlo,xhi,ylo,yhi,zlo,zhi;   \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+ylo	region_block.h	/^  double xlo,xhi,ylo,yhi,zlo,zhi;$/;"	m	class:SPPARKS_NS::RegBlock
+ymid	app_lattice.h	/^  double ymid;$/;"	m	class:SPPARKS_NS::AppLattice
+yorig	create_sites.h	/^  double xorig,yorig,zorig;$/;"	m	class:SPPARKS_NS::CreateSites
+yperiodic	domain.h	/^  int xperiodic,yperiodic,zperiodic;  \/\/ 0 = non-periodic, 1 = periodic$/;"	m	class:SPPARKS_NS::Domain
+yprd	domain.h	/^  double xprd,yprd,zprd;                               \/\/ global domain$/;"	m	class:SPPARKS_NS::Domain
+yscale	region.h	/^  double xscale,yscale,zscale;      \/\/ scale factors for lattice units$/;"	m	class:SPPARKS_NS::Region
+z	app_lattice.h	/^    double x,y,z;$/;"	m	struct:SPPARKS_NS::AppLattice::Site
+z	comm_lattice.h	/^    int x,y,z,it;   $/;"	m	struct:SPPARKS_NS::CommLattice::Particle
+z	create_sites.h	/^    double x,y,z;$/;"	m	struct:SPPARKS_NS::CreateSites::Site
+zctr	image.h	/^  double xctr,yctr,zctr;        \/\/ center of image in user coords$/;"	m	class:SPPARKS_NS::Image
+zdist	image.h	/^  double zdist;$/;"	m	class:SPPARKS_NS::Image
+zhi	create_sites.h	/^  tagint xlo,xhi,ylo,yhi,zlo,zhi;   \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+zhi	region_block.h	/^  double xlo,xhi,ylo,yhi,zlo,zhi;$/;"	m	class:SPPARKS_NS::RegBlock
+zlattice	create_sites.h	/^  double xlattice,ylattice,zlattice;$/;"	m	class:SPPARKS_NS::CreateSites
+zlattice	lattice.h	/^  double xlattice,ylattice,zlattice;   \/\/ lattice scale factors in 3 dims$/;"	m	class:SPPARKS_NS::Lattice
+zlo	create_sites.h	/^  tagint xlo,xhi,ylo,yhi,zlo,zhi;   \/\/update to tagint by bdwu 160704$/;"	m	class:SPPARKS_NS::CreateSites
+zlo	region_block.h	/^  double xlo,xhi,ylo,yhi,zlo,zhi;$/;"	m	class:SPPARKS_NS::RegBlock
+zmid	app_lattice.h	/^  double zmid;$/;"	m	class:SPPARKS_NS::AppLattice
+zoom	image.h	/^  double zoom;                  \/\/ zoom factor$/;"	m	class:SPPARKS_NS::Image
+zoomstr	dump_image.h	/^  char *zoomstr,*perspstr;         \/\/ view zoom and perspective variables$/;"	m	class:SPPARKS_NS::DumpImage
+zoomvar	dump_image.h	/^  int zoomvar,perspvar;            \/\/ index to zoom,persp vars$/;"	m	class:SPPARKS_NS::DumpImage
+zorig	create_sites.h	/^  double xorig,yorig,zorig;$/;"	m	class:SPPARKS_NS::CreateSites
+zperiodic	domain.h	/^  int xperiodic,yperiodic,zperiodic;  \/\/ 0 = non-periodic, 1 = periodic$/;"	m	class:SPPARKS_NS::Domain
+zprd	domain.h	/^  double xprd,yprd,zprd;                               \/\/ global domain$/;"	m	class:SPPARKS_NS::Domain
+zscale	region.h	/^  double xscale,yscale,zscale;      \/\/ scale factors for lattice units$/;"	m	class:SPPARKS_NS::Region
+~App	app.cpp	/^App::~App()$/;"	f	class:App
+~AppLattice	app_lattice.cpp	/^AppLattice::~AppLattice()$/;"	f	class:AppLattice
+~AppVacancy	app_vacancy.cpp	/^AppVacancy::~AppVacancy()$/;"	f	class:AppVacancy
+~Cluster	cluster.cpp	/^Cluster::~Cluster() {$/;"	f	class:Cluster
+~CommLattice	comm_lattice.cpp	/^CommLattice::~CommLattice()$/;"	f	class:CommLattice
+~Diag	diag.cpp	/^Diag::~Diag()$/;"	f	class:Diag
+~DiagArray	diag_array.cpp	/^DiagArray::~DiagArray()$/;"	f	class:DiagArray
+~DiagCluster	diag_cluster.cpp	/^DiagCluster::~DiagCluster()$/;"	f	class:DiagCluster
+~DiagEnergy	diag_energy.h	/^  ~DiagEnergy() {}$/;"	f	class:SPPARKS_NS::DiagEnergy
+~DiagPropensity	diag_propensity.h	/^  ~DiagPropensity() {}$/;"	f	class:SPPARKS_NS::DiagPropensity
+~Domain	domain.cpp	/^Domain::~Domain()$/;"	f	class:Domain
+~Dump	dump.cpp	/^Dump::~Dump()$/;"	f	class:Dump
+~DumpImage	dump_image.cpp	/^DumpImage::~DumpImage()$/;"	f	class:DumpImage
+~DumpSites	dump_sites.h	/^  ~DumpSites() {}$/;"	f	class:SPPARKS_NS::DumpSites
+~DumpText	dump_text.cpp	/^DumpText::~DumpText()$/;"	f	class:DumpText
+~Finish	finish.h	/^  ~Finish() {}$/;"	f	class:SPPARKS_NS::Finish
+~Groups	groups.cpp	/^Groups::~Groups()$/;"	f	class:Groups
+~Image	image.cpp	/^Image::~Image()$/;"	f	class:Image
+~Input	input.cpp	/^Input::~Input()$/;"	f	class:Input
+~Lattice	lattice.cpp	/^Lattice::~Lattice()$/;"	f	class:Lattice
+~Output	output.cpp	/^Output::~Output()$/;"	f	class:Output
+~Pair	pair.h	/^  virtual ~Pair() {}$/;"	f	class:SPPARKS_NS::Pair
+~PairLJCut	pair_lj_cut.cpp	/^PairLJCut::~PairLJCut()$/;"	f	class:PairLJCut
+~Pointers	pointers.h	/^  virtual ~Pointers() {}$/;"	f	class:SPPARKS_NS::Pointers
+~Potential	potential.cpp	/^Potential::~Potential()$/;"	f	class:Potential
+~RanMars	random_mars.cpp	/^RanMars::~RanMars()$/;"	f	class:RanMars
+~RandomPark	random_park.h	/^  ~RandomPark() {}$/;"	f	class:SPPARKS_NS::RandomPark
+~ReadSites	read_sites.cpp	/^ReadSites::~ReadSites()$/;"	f	class:ReadSites
+~Region	region.cpp	/^Region::~Region()$/;"	f	class:Region
+~SPPARKS	spparks.cpp	/^SPPARKS::~SPPARKS()$/;"	f	class:SPPARKS
+~Solve	solve.cpp	/^Solve::~Solve()$/;"	f	class:Solve
+~SolveGroup	solve_group.cpp	/^SolveGroup::~SolveGroup()$/;"	f	class:SolveGroup
+~SolveLinear	solve_linear.cpp	/^SolveLinear::~SolveLinear()$/;"	f	class:SolveLinear
+~SolveTree	solve_tree.cpp	/^SolveTree::~SolveTree()$/;"	f	class:SolveTree
+~Timer	timer.cpp	/^Timer::~Timer()$/;"	f	class:Timer
+~Universe	universe.cpp	/^Universe::~Universe()$/;"	f	class:Universe
+~Variable	variable.cpp	/^Variable::~Variable()$/;"	f	class:Variable

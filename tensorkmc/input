@@ -1,0 +1,39 @@
+# SPPARKS Potts tests on generic lattice
+
+seed		 2001
+app_style	 vacancy
+#processors       2 2 2
+
+dimension	 3
+lattice		 bcc 2.855
+region		 box block 0 500 0 500 0 500
+create_box	 box
+create_sites	 box value site 1
+set              i1 value 0 fraction 4.0E-6
+set              i1 value 2 fraction 0.0134
+#set              i1 value 3 fraction 0.0063
+#set              i1 value 4 fraction 0.0126
+#set              i1 value 5 fraction 0.0053
+barrier  Fe 0.65
+barrier  Cu 0.56
+#barrier  Si 0.44
+#barrier  Mn 1.03
+#barrier  Ni 0.70
+#nbody         eam3  FeCr050617-PAW-stiff.pot
+nbody eam FeCu.dmk
+#nbody ppair2 Vincent_2008.dat
+
+temperature	 573.0
+
+solve_style      tree
+sector           yes nstop 10
+
+stats            1.0e-5
+#stats 10
+diag_style       energy stats yes
+
+#dump             1 text 0.05 dump.vacancy.* id site x y z
+
+run              10.0
+#run 22100
+#Fe-X(X=Cu-Si-Mn-Ni)
