@@ -39,6 +39,7 @@ AppVacancy::AppVacancy(SPPARKS *spk, int narg, char **arg) :
 
   //ninteger = 1;
   ninteger = 1;
+  //ndouble = 3;
   ndouble = 3;
   delpropensity = 3;
   delevent = 3;
