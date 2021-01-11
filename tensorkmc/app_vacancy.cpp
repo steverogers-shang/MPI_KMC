@@ -37,6 +37,7 @@ AppVacancy::AppVacancy(SPPARKS *spk, int narg, char **arg) :
 {
   // these can be changed by model choice, see below
 
+  //ninteger = 1;
   ninteger = 1;
   ndouble = 3;
   delpropensity = 3;
